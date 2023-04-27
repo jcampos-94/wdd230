@@ -26,6 +26,7 @@ h1 {
 
 main {
     font-family: 'Fira Sans', sans-serif;
+    margin: auto 1rem;
 }
 
 h2 {
@@ -36,6 +37,10 @@ ul {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1.5rem;
+}
+
+li {
+    line-height: 1.3rem;
 }
 
 footer {

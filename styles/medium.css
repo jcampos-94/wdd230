@@ -1,0 +1,10 @@
+@media screen and (min-width: 640px) {
+    main {
+      font-size: 1.2rem;
+      margin: auto 1.8rem;
+    }
+
+    li {
+        line-height: 2rem;
+    }
+  }
