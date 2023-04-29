@@ -8,9 +8,4 @@
   main {
     grid-template-columns: 1fr 1fr;
   }
-
-  footer {
-    display: flex;
-    justify-content: center;
-  }
 }
