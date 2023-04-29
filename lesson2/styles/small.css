@@ -1,0 +1,46 @@
+body {
+  font-family: "Ysabeau", sans-serif;
+}
+
+header,
+footer {
+  background-color: bisque;
+  text-align: center;
+  font-size: 1rem;
+}
+
+header {
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  max-width: 100%;
+  margin: 1rem;
+  background-color: bisque;
+  padding: 1rem;
+  font-size: 1.15rem;
+}
+
+.name {
+  margin-top: -0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+div div {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+footer {
+  padding: 0.5rem;
+}

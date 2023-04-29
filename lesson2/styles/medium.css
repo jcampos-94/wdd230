@@ -1,0 +1,16 @@
+@media screen and (min-width: 700px) {
+  header,
+  footer,
+  .card {
+    font-size: 1.3rem;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px) {
+  header,
+  footer,
+  .card {
+    font-size: 1.5rem;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
