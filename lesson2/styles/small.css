@@ -26,9 +26,10 @@ main {
   font-size: 1.15rem;
 }
 
-.name {
+h4 {
   margin-top: -0.3rem;
   margin-bottom: 0.1rem;
+  font-weight: lighter;
 }
 
 div div {
