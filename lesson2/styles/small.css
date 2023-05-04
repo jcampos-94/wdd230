@@ -18,7 +18,7 @@ main {
   grid-template-columns: 1fr;
 }
 
-.card {
+section {
   max-width: 100%;
   margin: 1rem;
   background-color: bisque;

@@ -1,7 +1,7 @@
 @media screen and (min-width: 700px) {
   header,
   footer,
-  .card {
+  section {
     font-size: 1.3rem;
   }
 
