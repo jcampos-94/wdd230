@@ -1,0 +1,127 @@
+body {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #d32b1e;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h3,
+#satisfy {
+  font-family: Satisfy, cursive;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-size: 2.3rem;
+}
+
+h2 {
+  margin-top: -0.7rem;
+  font-size: 1.3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  background-color: #5f1a37;
+  background-size: 100%;
+}
+
+main {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p, li, .rectangle {
+  font-size: 1.2rem;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: -1.5rem;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: -1.7rem;
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+li {
+  text-align: left;
+  margin-left: -1rem;
+  margin-bottom: 0.5rem;
+}
+
+.colors {
+  display: flex;
+  align-content: center;
+  max-width: 100%;
+  margin-top: 3rem;
+  flex-direction: column;
+}
+
+.rectangle {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+#primary {
+  background-color: #d32b1e;
+  color: white;
+}
+
+#secondary {
+  background-color: #ffffff;
+  border: solid 1px #000000;
+}
+
+#accent1 {
+  background-color: #5f1a37;
+  color: white;
+}
+
+#accent2 {
+  background-color: #000000;
+  color: white;
+}
+
+footer {
+  padding: 0.3rem;
+}
+
+/* https://coolors.co/d32b1e-ffffff-5f1a37-69747c-000000 */

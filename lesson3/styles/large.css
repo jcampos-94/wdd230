@@ -1,0 +1,35 @@
+@media screen and (min-width: 1200px) {
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-child {
+    margin: 2.3rem;
+    margin-top: -2.3rem;
+  }
+
+  #grid1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  #grid2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .colors {
+    flex-direction: row;
+  }
+
+  .rectangle {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #garamond {
+    margin-top: -1.2rem;
+  }
+}
