@@ -1,0 +1,40 @@
+* {
+    font-size: 24px;
+}
+
+/* Descendant Combinator */
+
+
+#box p {
+    color: red;
+}
+
+
+/* Child Combinator */
+
+
+ul > li {
+    border-top: 5px solid red;  
+}
+
+
+/* Adjacent Sibling Combinator */
+
+
+#adjacent + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+
+/* General Sibling Combinator */
+
+
+#general ~ p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}

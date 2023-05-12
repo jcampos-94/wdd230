@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Presentation Examples</title>
+  </head>
+  <body>
+    <section>
+      <h1>Descendant Combinator</h1>
+      <div id="box">
+        <p>Text in #box</p>
+      </div>
+      <p>Text not in #box</p>
+    </section>
+
+    <section>
+      <h1>Child Combinator</h1>
+      <ul>
+        <li>Unordered item</li>
+        <li>
+          Unordered item
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+          </ol>
+        </li>
+        <li>Item 3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>Adjacent Sibling Combinator</h1>
+      <article>
+        <h2 id="adjacent">A heading</h2>
+        <p>
+          Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+          onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+        </p>
+        <p>
+          Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot
+          courgette tatsoi pea sprouts fava bean collard greens dandelion okra
+          wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h1>General Sibling Combinator</h1>
+      <article>
+        <h2 id="general">A heading</h2>
+        <p>I am a paragraph.</p>
+        <div>I am a div</div>
+        <p>I am another paragraph.</p>
+      </article>
+    </section>
+  </body>
+</html>
