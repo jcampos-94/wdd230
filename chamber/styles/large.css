@@ -1,0 +1,85 @@
+@media screen and (min-width: 1200px) {
+    header > img {
+        max-width: 25%;
+    }
+    
+    nav button {
+        display: none;
+    }
+    
+    #linkedIn {
+        margin-right: 4rem;
+    }
+
+    nav ul {
+        display: flex;
+        position: absolute;
+        right: 40rem;
+        top: 1rem;
+    }
+
+    nav ul li a {
+        border-bottom: none;
+    }
+
+    main {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    #event, #weather, #join {
+        grid-column: 1/2;
+    }
+
+    #event {
+        grid-row: 1/2;
+    }
+
+    #weather {
+        grid-row: 2/3;
+    }
+
+    #join {
+        grid-row: 3/4;
+    }
+
+    #hero, #news {
+        grid-column: 2/3;
+    }
+
+    #hero {
+        grid-row: 1/3;
+        height: 84%;
+    }
+
+    #news {
+        grid-row: 3/4;
+    }
+
+    #card {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        display: block;
+    }
+
+    #s1, #s2 {
+        margin-bottom: 0.4rem;
+    }
+
+    #s3 {
+        display: block;
+        margin: 0;
+    }
+
+    #whiteP {
+        margin-left: 7rem;
+    }
+
+    #addressId {
+        margin-left: -6rem;
+    }
+
+    #addressId, #contactId {
+        margin-top: -3rem;
+    }
+
+}

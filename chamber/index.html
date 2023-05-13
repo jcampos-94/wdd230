@@ -18,8 +18,8 @@
     <header>
         <img src="images/logo.png" alt="logo">
         <nav>
-            <a href="https://www.facebook.com/CamaraComercioPeruOficial"><img class="smedia" src="images/facebook.png" alt="facebook"></a>
-            <a href="https://www.linkedin.com/in/camaranacionalperu/"><img class="smedia" src="images/linked.png" alt="linkedIn"></a>
+            <a href="https://www.facebook.com/CamaraComercioPeruOficial"><img class="smedia" id="facebook" src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.linkedin.com/in/camaranacionalperu/"><img class="smedia" id="linkedIn" src="images/linked.png" alt="linkedIn"></a>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="#">Discover</a></li>
@@ -31,30 +31,37 @@
         <time></time>
     </header>
     <main>
-        <div>Hero with site name and call to action</div>
-        <div>Event</div>
-        <div>Weather</div>
-        <div>News release</div>
-        <div class="card">
+        <div id="hero">Hero with site name and call to action</div>
+        <div id="event">Event</div>
+        <div id="weather">Weather</div>
+        <div id="news">News release</div>
+        <div id="card">
             <div id="s1">Spotlight 1</div>
             <div id="s2">Spotlight 2</div>
             <div id="s3">Spotlight 3</div>
         </div>
-        <div>Join</div>
+        <div id="join">Join</div>
     </main>
     <footer>
-        <div><img src="images/whitep.png" alt="whiteP"></div>
-        <p id="name">Peruvian Chamber of Commerce</p>
-        <p class="address">Av. Arequipa 398</p>
-        <p class="address">Lima, Perú</p>
-        <p>informes@diplomados.org.pe</p>
-        <p>+51 952 864 977</p>
-        <a href="https://www.google.com/maps/place/Av.+Arequipa+398,+Lima+15046/@-12.0681435,-77.0397219,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c8eb9089e8bf:0x4cf2d9cb4c65de98!8m2!3d-12.0681488!4d-77.037147!16s%2Fg%2F11c22wy9kh">Location Map</a>
+        <div id="whiteP"><img src="images/whitep.png" alt="whiteP"></div>
+        <div id="addressId">
+            <p id="name">Peruvian Chamber of Commerce</p>
+            <p class="address">Av. Arequipa 398</p>
+            <p class="address">Lima, Perú</p>
+        </div>
+        <div id="contactId">
+            <p id="fcontact1">informes@diplomados.org.pe</p>
+            <p id="fcontact2">+51 952 864 977</p>
+            <a href="https://www.google.com/maps/place/Av.+Arequipa+398,+Lima+15046/@-12.0681435,-77.0397219,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c8eb9089e8bf:0x4cf2d9cb4c65de98!8m2!3d-12.0681488!4d-77.037147!16s%2Fg%2F11c22wy9kh">Location Map</a>
+        </div>
         <div id="footerData">
             <p>&copy;<span id="currentYear"></span> Peruvian Chamber</p>
             <p>Juan Campos</p>
             <p>WDD 230 Project</p>
             <p>Last Modification: <span id="lastUpdated"></span></p>
+        </div>
+        <div id="footerData2">
+            <p>&copy;<span id="currentYear2"></span> Peruvian Chamber | Juan Campos | WDD 230 Project | Last Modification: <span id="lastUpdated2"></span></p>
         </div>
     </footer>
     <script src="scripts/script.js"></script>

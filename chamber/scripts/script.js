@@ -1,6 +1,8 @@
 document.querySelector("#currentYear").innerHTML = new Date().getFullYear();
-
 document.querySelector("#lastUpdated").innerHTML = document.lastModified;
+
+document.querySelector("#currentYear2").innerHTML = new Date().getFullYear();
+document.querySelector("#lastUpdated2").innerHTML = document.lastModified;
 
 const datefield = document.querySelector("time");
 const now = new Date();
