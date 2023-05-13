@@ -20,6 +20,11 @@ header > img {
     max-width: 50%;
 }
 
+.smedia {
+    max-width: 30%;
+    margin: 0 0.1rem;
+}
+
 nav button {
     min-width: 3rem;
     background: transparent;
@@ -27,7 +32,7 @@ nav button {
     font-size: 2rem;
     color: #5F1A37;
     float: right;
-    top: 2.5rem;
+    margin-left: -1rem;
 }
 
 nav:nth-child(2) {
