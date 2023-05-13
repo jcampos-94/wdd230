@@ -1,0 +1,149 @@
+html,body
+{
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 1rem;
+}
+
+header {
+    background-color: #D32B1E;
+    padding: 1rem;
+}
+
+header > img {
+    max-width: 50%;
+}
+
+nav button {
+    min-width: 3rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #5F1A37;
+    float: right;
+    top: 2.5rem;
+}
+
+nav:nth-child(2) {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    width: 200px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+nav ul.open {
+    display: block;
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+    border-top: 3px solid #5F1A37;
+    border-left: 3px solid #5F1A37;
+    border-right: 3px solid #5F1A37;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    background-color: #D32B1E;
+    border-bottom: 3px solid #5F1A37;
+}
+
+nav ul li a:hover {
+    background-color: #5F1A37;
+}
+
+time {
+    display: block;
+    text-align: center;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
+    background-color: #eee;
+}
+
+main div {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    height: 100px;
+}
+
+.card {
+    height: 100%;
+}
+
+#s2 {
+    margin-bottom: 0;
+}
+
+#s3 {
+    display: none;
+}
+
+footer {
+    background-color: #D32B1E;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+footer div img {
+    max-width: 40%;
+    padding: 1rem;
+}
+
+#name {
+    font-size: 1.3rem;
+}
+
+.address {
+    margin-top: -1rem;
+}
+
+footer a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#footerData {
+    border-top: 1px solid white;
+    margin-top: 1rem;
+}
+
+#footerData p {
+    margin-bottom: -0.7rem;
+}
