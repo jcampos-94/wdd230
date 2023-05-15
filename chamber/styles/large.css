@@ -11,11 +11,17 @@
         margin-right: 4rem;
     }
 
-    nav ul {
+    nav ul#primaryNav {
         display: flex;
         position: absolute;
         right: 40rem;
         top: 1rem;
+    }
+
+    nav ul.open {
+        border-top: none;
+        border-left: none;
+        border-right: none;
     }
 
     nav ul li a {
