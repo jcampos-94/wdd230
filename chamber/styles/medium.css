@@ -1,4 +1,12 @@
 @media screen and (min-width: 600px) {
+  body > div {
+    font-size: 1.2rem;
+  }
+
+  body > button {
+    font-size: 1.2rem;
+  }
+  
   main {
     font-size: 1.5rem;
   }
@@ -59,6 +67,7 @@
 
   #hero button {
     font-size: 1.8rem;
+    box-shadow: 1px 1px 8px 5px rgba(95,26,55,0.8);
   }
 
   #event > div{
@@ -91,7 +100,19 @@
   #join {
     display: block;
     grid-row: 4/5;
+    padding-top: 2rem;
   }
+
+  #join button {
+    border: none;
+    background-color: #d32b1e;
+    font-size: 1.8rem;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 1px 1px 8px 5px #5f1a37;
+}
 
   footer {
     display: grid;

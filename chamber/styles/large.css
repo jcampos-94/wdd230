@@ -115,17 +115,32 @@
   #card {
     grid-column: 3/4;
     grid-row: 1/4;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
-  #s1,
+  .spotlight {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  #s1 {
+    grid-row: 1/2;
+  }
+
   #s2 {
-    margin-bottom: 0.4rem;
+    grid-row: 2/3;
   }
 
   #s3 {
     display: block;
     margin: 0;
+    grid-row: 3/4;
+  }
+
+  #join {
+    padding-top: 3rem;
   }
 
   #whiteP {

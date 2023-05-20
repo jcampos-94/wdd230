@@ -8,6 +8,23 @@ body {
   font-family: "EB Garamond", serif;
 }
 
+body > div {
+  padding: 1rem 2rem 1rem 1rem;
+  text-align: left;
+  font-size: 1.1rem;
+  background-color: #5f1a37;
+  color: white;
+}
+
+body > button {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
 main {
   margin: 1rem;
 }
@@ -15,6 +32,7 @@ main {
 header {
   background-color: #d32b1e;
   padding: 1rem;
+  position: relative;
 }
 
 header > img {
@@ -169,6 +187,7 @@ main > div > a {
     color: white;
     padding: 0.8rem;
     border-radius: 15px;
+    box-shadow: 1px 1px 8px 3px rgba(95,26,55,0.8);
 }
 
 #event > div{
