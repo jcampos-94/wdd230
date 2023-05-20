@@ -1,104 +1,109 @@
 @media screen and (min-width: 600px) {
-    main {
-        font-size: 1.5rem;
-    }
-    
-    .smedia {
-        max-width: none;
-        margin: 2rem 0.3rem;
-    }
+  main {
+    font-size: 1.5rem;
+  }
 
-    nav button {
-        font-size: 3rem;
-        margin: 2rem 1rem;
-        min-width: 4rem;
-    }
+  .smedia {
+    max-width: none;
+    margin: 2rem 0.3rem;
+  }
 
-    nav ul {
-        font-size: 2rem;
-        width: 250px;
-    }
-    
-    nav ul.open {
-        top: 6rem;
-    }
+  nav button {
+    font-size: 3rem;
+    margin: 2rem 1rem;
+    min-width: 4rem;
+  }
 
-    time {
-        font-size: 1.8rem;
-    }
+  nav ul {
+    font-size: 2rem;
+    width: 250px;
+  }
 
-    main {
-        display: grid;
-        grid-template-columns: 1.3fr 0.7fr;
-        gap: 0.5rem;
-    }
- 
-    #hero, #news, #card, #join {
-        grid-column: 1/3;
-    }
+  nav ul.open {
+    top: 6rem;
+  }
 
-    #news {
-        grid-row: 2/3;
-    }
+  time {
+    font-size: 1.8rem;
+  }
 
-    #card {
-        grid-row: 3/4;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0.5rem;
-    }
+  main {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 0.5rem;
+  }
 
-    #s1, #s2 {
-        margin: 0;
-    }
+  #hero,
+  #news,
+  #card,
+  #join {
+    grid-column: 1/3;
+  }
 
-    #join {
-        grid-row: 4/5;
-    }
+  #news {
+    grid-row: 2/3;
+  }
 
-    footer {
-        display: grid;
-        grid-template-columns: 0.5fr 1fr 1fr;
-        gap: 0 0.5rem;
-        font-size: 1.5rem;
-    }
+  #card {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
 
-    footer div {
-        max-height: 80%;
-        align-self: center;
-    }
+  #s1,
+  #s2 {
+    margin: 0;
+  }
 
-    #whiteP{
-        max-height: 100%;
-    }
-    
-    footer div img {
-        max-width: 100%;
-        padding: 0;
-    }
+  #join {
+    display: block;
+    grid-row: 4/5;
+  }
 
-    #name {
-        font-size: 1.8rem;
-    }
+  footer {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    gap: 0 0.5rem;
+    font-size: 1.5rem;
+  }
 
-    #fcontact1 {
-        margin-bottom: -1rem;
-        margin-top: 2rem;
-    }
+  footer div {
+    max-height: 80%;
+    align-self: center;
+  }
 
-    footer a {
-        font-size: 1.5rem;
-    }
+  #whiteP {
+    max-height: 100%;
+  }
 
-    #footerData {
-        display: none;
-    }
-    
-    #footerData2 {
-        display: block;
-        border-top: 1px solid white;
-        grid-column: 1/4;
-        display: flex;
-        margin: 1rem auto;
-    }
+  footer div img {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  #name {
+    font-size: 1.8rem;
+  }
+
+  #fcontact1 {
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+  }
+
+  footer a {
+    font-size: 1.5rem;
+  }
+
+  #footerData {
+    display: none;
+  }
+
+  #footerData2 {
+    display: block;
+    border-top: 1px solid white;
+    grid-column: 1/4;
+    display: flex;
+    margin: 1rem auto;
+  }
 }

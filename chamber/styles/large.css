@@ -1,96 +1,106 @@
 @media screen and (min-width: 1200px) {
-    header > img {
-        max-width: 25%;
-    }
-    
-    nav button {
-        display: none;
-    }
-    
-    #linkedIn {
-        margin-right: 4rem;
-    }
+  header > img {
+    max-width: 25%;
+  }
 
-    nav ul#primaryNav {
-        display: flex;
-        position: absolute;
-        right: 40rem;
-        top: 1rem;
-    }
+  nav button {
+    display: none;
+  }
 
-    nav ul.open {
-        border-top: none;
-        border-left: none;
-        border-right: none;
-    }
+  #linkedIn {
+    margin-right: 4rem;
+  }
 
-    nav ul li a {
-        border-bottom: none;
-    }
+  nav ul li a {
+    text-align: center;
+    background-color: transparent;
+    padding: 1rem;
+  }
 
-    nav ul li a:hover {
-        background-color: transparent;
-        color: #5F1A37;
-    }
+  nav ul#primaryNav {
+    display: flex;
+    position: absolute;
+    right: 35rem;
+    top: 1.5rem;
+  }
 
-    main {
-        grid-template-columns: 1fr 2fr 1fr;
-    }
+  nav ul.open {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
 
-    #event, #weather, #join {
-        grid-column: 1/2;
-    }
+  nav ul li a {
+    border-bottom: none;
+  }
 
-    #event {
-        grid-row: 1/2;
-    }
+  nav ul li a:hover {
+    background-color: transparent;
+    color: #5f1a37;
+  }
 
-    #weather {
-        grid-row: 2/3;
-    }
+  main {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
 
-    #join {
-        grid-row: 3/4;
-    }
+  #event,
+  #weather,
+  #join {
+    grid-column: 1/2;
+  }
 
-    #hero, #news {
-        grid-column: 2/3;
-    }
+  #event {
+    grid-row: 1/2;
+  }
 
-    #hero {
-        grid-row: 1/3;
-        height: 84%;
-    }
+  #weather {
+    grid-row: 2/3;
+  }
 
-    #news {
-        grid-row: 3/4;
-    }
+  #join {
+    grid-row: 3/4;
+  }
 
-    #card {
-        grid-column: 3/4;
-        grid-row: 1/4;
-        display: block;
-    }
+  #hero,
+  #news {
+    grid-column: 2/3;
+  }
 
-    #s1, #s2 {
-        margin-bottom: 0.4rem;
-    }
+  #hero {
+    grid-row: 1/3;
+    height: 84%;
+  }
 
-    #s3 {
-        display: block;
-        margin: 0;
-    }
+  #news {
+    grid-row: 3/4;
+  }
 
-    #whiteP {
-        margin-left: 7rem;
-    }
+  #card {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    display: block;
+  }
 
-    #addressId {
-        margin-left: -6rem;
-    }
+  #s1,
+  #s2 {
+    margin-bottom: 0.4rem;
+  }
 
-    #addressId, #contactId {
-        margin-top: -3rem;
-    }
+  #s3 {
+    display: block;
+    margin: 0;
+  }
 
+  #whiteP {
+    margin-left: 7rem;
+  }
+
+  #addressId {
+    margin-left: -6rem;
+  }
+
+  #addressId,
+  #contactId {
+    margin-top: -3rem;
+  }
 }
