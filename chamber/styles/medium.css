@@ -33,6 +33,38 @@
     gap: 0.5rem;
   }
 
+  main > div > p {
+    font-size: 1.5rem;
+  }
+
+  main > div > a {
+    font-size: 1.5rem;
+  }
+
+  #arequipa {
+    display: none;
+  }
+
+  #cusco {
+    max-width: 100%;
+    display: block;
+  }
+
+  #hero p {
+    font-size: 4rem;
+    right: 1.5rem;
+    left: auto;
+    text-shadow: 5px 1px 1px #5f1a37;
+  }
+
+  #hero button {
+    font-size: 1.8rem;
+  }
+
+  #event > div{
+    display: block;
+  }
+
   #hero,
   #news,
   #card,

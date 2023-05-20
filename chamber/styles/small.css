@@ -141,6 +141,14 @@ main > div > a {
     max-width: 100%;
 }
 
+#cusco {
+  display: none;
+}
+
+#lima {
+  display: none;
+}
+
 #hero p {
     position: absolute;
     top: -0.5rem;
@@ -148,6 +156,7 @@ main > div > a {
     font-family: Satisfy, cursive;
     color: white;
     font-size: 2.2rem;
+    text-shadow: 2px 1px 1px #5f1a37;
 }
 
 #hero button {
@@ -160,6 +169,10 @@ main > div > a {
     color: white;
     padding: 0.8rem;
     border-radius: 15px;
+}
+
+#event > div{
+  display: none;
 }
 
 #weather {
@@ -189,6 +202,13 @@ main > div > a {
 
 .weather-data {
     text-align: right;
+    font-family: Satisfy, cursive;
+    font-size: 1.5rem;
+}
+
+.weather-info {
+  text-align: left;
+  margin-left: 1rem;
 }
 
 .spotlight {
