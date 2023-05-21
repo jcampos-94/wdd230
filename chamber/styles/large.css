@@ -3,6 +3,12 @@
     max-width: 25%;
   }
 
+  nav:nth-child(2) {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+  }
+
   nav button {
     display: none;
   }

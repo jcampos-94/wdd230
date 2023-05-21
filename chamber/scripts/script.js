@@ -16,3 +16,18 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+function closeBanner() {
+    document.getElementById("banner").classList.remove("open");
+    document.getElementById("banner").classList.add("close");
+}
+
+const bannerX = document.getElementById("bannerX");
+bannerX.onclick = closeBanner;
+
+const today = new Date().getDay();
+const banner = document.getElementById("banner");
+if (today === 1 || today === 2) {
+    banner.classList.remove("close");
+    banner.classList.add("open");
+}
