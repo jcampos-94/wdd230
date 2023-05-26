@@ -2,7 +2,7 @@
 
   /*---------- HEADER ----------*/
 
-  header > img {
+  header .logo {
     max-width: 25%;
   }
 

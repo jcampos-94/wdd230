@@ -43,8 +43,13 @@ header {
   position: relative;
 }
 
-header > img {
+header .logo {
   max-width: 50%;
+  margin: 0;
+}
+
+header .logo img {
+  width: 100%;
 }
 
 .smedia {
