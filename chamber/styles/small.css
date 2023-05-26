@@ -287,15 +287,20 @@ main > div > a {
 
 footer {
   background-color: #d32b1e;
-  padding: 1rem;
   color: white;
   text-align: center;
-  padding: 1.5rem;
+  padding: 5%;
 }
 
-footer div img {
+#whiteP {
+  display: block;
+  margin: 0 auto;
   max-width: 40%;
-  padding: 1rem;
+  padding: 0;
+}
+
+#whiteP img {
+  width: 100%;
 }
 
 #name {

@@ -156,12 +156,8 @@
 
   /*---------- FOOTER ----------*/
 
-  #whiteP {
-    margin-left: 7rem;
-  }
-
-  #addressId {
-    margin-left: -6rem;
+  footer {
+    padding: 1% 5%;
   }
 
   #addressId,
