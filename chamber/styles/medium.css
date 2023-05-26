@@ -1,4 +1,7 @@
 @media screen and (min-width: 600px) {
+
+  /*---------- BANNER ----------*/
+
   body > div {
     font-size: 1.2rem;
   }
@@ -6,10 +9,8 @@
   body > button {
     font-size: 1.2rem;
   }
-  
-  main {
-    font-size: 1.5rem;
-  }
+
+  /*---------- HEADER ----------*/
 
   .smedia {
     max-width: none;
@@ -35,10 +36,13 @@
     font-size: 1.8rem;
   }
 
+  /*---------- MAIN ----------*/
+
   main {
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
     gap: 0.5rem;
+    font-size: 1.5rem;
   }
 
   main > div > p {
@@ -112,7 +116,9 @@
     border-radius: 20px;
     width: 100%;
     box-shadow: 1px 1px 8px 5px #5f1a37;
-}
+  }
+
+  /*---------- FOOTER ----------*/
 
   footer {
     display: grid;

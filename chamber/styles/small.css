@@ -8,6 +8,8 @@ body {
   font-family: "EB Garamond", serif;
 }
 
+/*---------- BANNER ----------*/
+
 body > div > div{
   padding: 1rem 2rem 1rem 1rem;
   text-align: left;
@@ -33,9 +35,7 @@ body > div > button {
   display: none;
 }
 
-main {
-  margin: 1rem;
-}
+/*---------- HEADER ----------*/
 
 header {
   background-color: #d32b1e;
@@ -131,6 +131,12 @@ time {
   border: 1px solid #5f1a37;
   background-color: rgba(0, 0, 0, 0.1);
   color: white;
+}
+
+/*---------- MAIN ----------*/
+
+main {
+  margin: 1rem;
 }
 
 h1 {
@@ -271,6 +277,8 @@ main > div > a {
 #join {
     display: none;
 }
+
+/*---------- FOOTER ----------*/
 
 footer {
   background-color: #d32b1e;
