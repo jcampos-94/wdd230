@@ -1,5 +1,4 @@
 @media screen and (min-width: 600px) {
-
   /*---------- BANNER ----------*/
 
   body > div {
@@ -62,10 +61,10 @@
 
   #hero button {
     font-size: 1.8rem;
-    box-shadow: 1px 1px 8px 5px rgba(95,26,55,0.8);
+    box-shadow: 1px 1px 8px 5px rgba(95, 26, 55, 0.8);
   }
 
-  #event > div{
+  #event > div {
     display: block;
   }
 

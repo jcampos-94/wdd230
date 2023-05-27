@@ -10,7 +10,7 @@ body {
 
 /*---------- BANNER ----------*/
 
-body > div > div{
+body > div > div {
   padding: 1rem 2rem 1rem 1rem;
   text-align: left;
   font-size: 1.1rem;
@@ -145,9 +145,9 @@ main {
 }
 
 h1 {
-    font-family: Satisfy, cursive;
-    margin-top: 0.3rem;
-    color: #5f1a37;
+  font-family: Satisfy, cursive;
+  margin-top: 0.3rem;
+  color: #5f1a37;
 }
 
 main > div {
@@ -160,27 +160,27 @@ main > div {
 }
 
 main > div > p {
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    color: #d32b1e;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #d32b1e;
 }
 
 main > div > a {
-    color: #5f1a37;
-    font-size: 1.2rem;
+  color: #5f1a37;
+  font-size: 1.2rem;
 }
 
 #hero {
-    background-color: transparent;
-    padding: 0;
-    border: none;
-    position: relative;
-    box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  position: relative;
+  box-shadow: none;
 }
 
 .hero-img {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 .hero-img img {
@@ -188,39 +188,39 @@ main > div > a {
 }
 
 #hero p {
-    position: absolute;
-    top: -0.5rem;
-    left: 1rem;
-    font-family: Satisfy, cursive;
-    color: white;
-    font-size: 2.2rem;
-    text-shadow: 2px 1px 1px #5f1a37;
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  font-family: Satisfy, cursive;
+  color: white;
+  font-size: 2.2rem;
+  text-shadow: 2px 1px 1px #5f1a37;
 }
 
 #hero button {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    border: none;
-    background-color: #d32b1e;
-    font-size: 1.3rem;
-    color: white;
-    padding: 0.8rem;
-    border-radius: 15px;
-    box-shadow: 1px 1px 8px 3px rgba(95,26,55,0.8);
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border: none;
+  background-color: #d32b1e;
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px 3px rgba(95, 26, 55, 0.8);
 }
 
-#event > div{
+#event > div {
   display: none;
 }
 
 #weather {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #weather h1 {
-    grid-column: 1/3;
+  grid-column: 1/3;
 }
 
 #weather picture {
@@ -228,25 +228,25 @@ main > div > a {
 }
 
 #weather picture img {
-    width: 100%;
+  width: 100%;
 }
 
 #temperature {
-    font-size: 3rem;
-    grid-column: 2/3;
-    grid-row: 2/3;
+  font-size: 3rem;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 #cloudy {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin-top: 6rem;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 6rem;
 }
 
 .weather-data {
-    text-align: right;
-    font-family: Satisfy, cursive;
-    font-size: 1.5rem;
+  text-align: right;
+  font-family: Satisfy, cursive;
+  font-size: 1.5rem;
 }
 
 .weather-info {
@@ -255,20 +255,20 @@ main > div > a {
 }
 
 .spotlight {
-    text-align: center;
-    border: 1px solid #d32b1e;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    background-color: white;
-    color: #d32b1e;
-    box-shadow: 1px 1px 8px 5px #5f1a37;
+  text-align: center;
+  border: 1px solid #d32b1e;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  color: #d32b1e;
+  box-shadow: 1px 1px 8px 5px #5f1a37;
 }
 
 .spotlight a {
-    color: #5f1a37;
+  color: #5f1a37;
 }
 
-.spot-logo img{
+.spot-logo img {
   max-width: 100%;
 }
 
@@ -281,7 +281,7 @@ main > div > a {
 }
 
 #join {
-    display: none;
+  display: none;
 }
 
 /*---------- FOOTER ----------*/

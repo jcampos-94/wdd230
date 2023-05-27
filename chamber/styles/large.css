@@ -1,5 +1,4 @@
 @media screen and (min-width: 1200px) {
-
   /*---------- HEADER ----------*/
 
   header .logo {
@@ -86,7 +85,7 @@
     bottom: 3rem;
   }
 
-  #event > div{
+  #event > div {
     display: none;
   }
 
