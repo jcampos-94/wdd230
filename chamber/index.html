@@ -96,12 +96,12 @@
             sizes="(max-width: 599px) 270px, (max-width: 1199px) 180px, 270px"
             srcset="images/cloudy270.png 270w, images/cloudy180.png 180w">
         </picture>
-        <p id="temperature">21ºC</p>
+        <p id="temperature"><span id="celsius">21</span> ºC</p>
         <p id="cloudy">Cloudy</p>
         <p class="weather-data">Wind Speed:</p>
-        <p class="weather-info">21 km/h</p>
-        <p class="weather-data">Humidity:</p>
-        <p class="weather-info">77%</p>
+        <p class="weather-info"><span id="speed">23</span> km/h</p>
+        <p class="weather-data">Wind Chill:</p>
+        <p class="weather-info"  id="windchill"></p>
       </div>
       <div id="news">
         <h1>News Release</h1>
@@ -190,5 +190,6 @@
       </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>
