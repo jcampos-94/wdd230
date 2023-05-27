@@ -141,7 +141,7 @@ time {
 /*---------- MAIN ----------*/
 
 main {
-  margin: 1rem;
+  margin: 2%;
 }
 
 h1 {
@@ -178,16 +178,13 @@ main > div > a {
     box-shadow: none;
 }
 
-#arequipa {
-    max-width: 100%;
+.hero-img {
+    width: 100%;
+    margin: 0;
 }
 
-#cusco {
-  display: none;
-}
-
-#lima {
-  display: none;
+.hero-img img {
+  max-width: 100%;
 }
 
 #hero p {
@@ -224,6 +221,10 @@ main > div > a {
 
 #weather h1 {
     grid-column: 1/3;
+}
+
+#weather div {
+  margin: auto;
 }
 
 #weather div img {

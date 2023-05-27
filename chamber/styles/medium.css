@@ -53,15 +53,6 @@
     font-size: 1.5rem;
   }
 
-  #arequipa {
-    display: none;
-  }
-
-  #cusco {
-    max-width: 100%;
-    display: block;
-  }
-
   #hero p {
     font-size: 4rem;
     right: 1.5rem;
