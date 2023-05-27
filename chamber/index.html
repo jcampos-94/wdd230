@@ -78,9 +78,10 @@
       </div>
       <div id="weather">
         <h1>Weather</h1>
-        <div>
-          <img src="images/cloudy.png" alt="cloudy">
-        </div>
+        <picture>
+          <img src="images/cloudy.png" alt="cloudy" sizes="(max-width: 599px) 270px, (max-width: 1199px) 180px, 270px"
+          srcset="images/cloudy270.png 270w, images/cloudy180.png 180w">
+        </picture>
         <p id="temperature">21ºC</p>
         <p id="cloudy">Cloudy</p>
         <p class="weather-data">Wind Speed:</p>

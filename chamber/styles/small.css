@@ -223,12 +223,12 @@ main > div > a {
     grid-column: 1/3;
 }
 
-#weather div {
+#weather picture {
   margin: auto;
 }
 
-#weather div img {
-    max-width: 100%;
+#weather picture img {
+    width: 100%;
 }
 
 #temperature {
