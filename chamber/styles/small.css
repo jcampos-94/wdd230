@@ -389,6 +389,16 @@ ul {
   margin-left: 6.5%;
 }
 
-.image-test {
-  margin: 0 5%;
+.discover-image {
+  display: block;
+  margin: 0 5% 2%;
+  max-width: 100%;
+}
+
+.discover-image img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
 }
