@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+header, footer  {
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 1rem auto;
+}
+
+picture {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    min-width: 300px;
+    min-height: 400px;
+    transition: filter 0.8s;
+}
+
+footer {
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin: 0;
+}
