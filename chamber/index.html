@@ -52,7 +52,7 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
           <li><a href="../chamber/">Home</a></li>
-          <li><a href="#">Discover</a></li>
+          <li><a href="discover.html">Discover</a></li>
           <li><a href="#">Directory</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Contact</a></li>
@@ -62,85 +62,87 @@
       <!-- datetime used as filler to avoid html errors -->
     </header>
     <main>
-      <div id="hero">
-        <figure class="hero-img">
-          <img
-            src="images/week6hero.jpg"
-            alt="hero image"
-            sizes="(max-width: 599px) 576px, (max-width: 1199px) 1151px, 1620px"
-            srcset="
-              images/week6hero1152.png 1152w,
-              images/week6hero1620.png 1620w,
-              images/week6hero2302.png 2302w,
-              images/week6hero3240.png 3240w">
-        </figure>
-        <p>Welcome to Peru</p>
-        <button>Join the Chamber</button>
-      </div>
-      <div id="event">
-        <h1>4th Franchise Masterclass</h1>
-        <div>
-          <img src="images/speaker.png" alt="Speaker: Duilio Zolfi">
+      <div id="home-grid">
+        <div id="hero">
+          <figure class="hero-img">
+            <img
+              src="images/week6hero.jpg"
+              alt="hero image"
+              sizes="(max-width: 599px) 576px, (max-width: 1199px) 1151px, 1620px"
+              srcset="
+                images/week6hero1152.png 1152w,
+                images/week6hero1620.png 1620w,
+                images/week6hero2302.png 2302w,
+                images/week6hero3240.png 3240w">
+          </figure>
+          <p>Welcome to Peru</p>
+          <button>Join the Chamber</button>
         </div>
-        <p>
-          The objective of this event is to identify if your business is ready
-          to franchise and which factors to consider.
-        </p>
-        <a href="#">more info...</a>
-      </div>
-      <div id="weather">
-        <h1>Weather</h1>
-        <picture>
-          <img
-            src="images/cloudy.png"
-            alt="cloudy"
-            sizes="(max-width: 599px) 270px, (max-width: 1199px) 180px, 270px"
-            srcset="images/cloudy270.png 270w, images/cloudy180.png 180w">
-        </picture>
-        <p id="temperature"><span id="celsius">21</span> ºC</p>
-        <p id="cloudy">Cloudy</p>
-        <p class="weather-data">Wind Speed:</p>
-        <p class="weather-info"><span id="speed">23</span> km/h</p>
-        <p class="weather-data">Wind Chill:</p>
-        <p class="weather-info"  id="windchill"></p>
-      </div>
-      <div id="news">
-        <h1>News Release</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-          consectetur sem at congue sollicitudin. Aliquam et vehicula turpis.
-          Donec sollicitudin turpis felis, at porttitor mi vestibulum porttitor.
-          Nulla ac orci pretium, commodo est sit amet, tristique est.
-          Pellentesque semper iaculis sapien, sed varius purus mattis.
-        </p>
-      </div>
-      <div id="card">
-        <div class="spotlight" id="s1">
-          <h1>Farmex</h1>
-          <div class="spot-logo">
-            <img src="images/farmex.png" alt="farmex-logo">
+        <div id="event">
+          <h1 class="div-title">4th Franchise Masterclass</h1>
+          <div>
+            <img src="images/speaker.png" alt="Speaker: Duilio Zolfi">
+          </div>
+          <p>
+            The objective of this event is to identify if your business is ready
+            to franchise and which factors to consider.
+          </p>
+          <a href="#">more info...</a>
+        </div>
+        <div id="weather">
+          <h1 class="div-title">Weather</h1>
+          <picture>
+            <img
+              src="images/cloudy.png"
+              alt="cloudy"
+              sizes="(max-width: 599px) 270px, (max-width: 1199px) 180px, 270px"
+              srcset="images/cloudy270.png 270w, images/cloudy180.png 180w">
+          </picture>
+          <p id="temperature"><span id="celsius">21</span> ºC</p>
+          <p id="cloudy">Cloudy</p>
+          <p class="weather-data">Wind Speed:</p>
+          <p class="weather-info"><span id="speed">23</span> km/h</p>
+          <p class="weather-data">Wind Chill:</p>
+          <p class="weather-info"  id="windchill"></p>
+        </div>
+        <div id="news">
+          <h1 class="div-title">News Release</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            consectetur sem at congue sollicitudin. Aliquam et vehicula turpis.
+            Donec sollicitudin turpis felis, at porttitor mi vestibulum porttitor.
+            Nulla ac orci pretium, commodo est sit amet, tristique est.
+            Pellentesque semper iaculis sapien, sed varius purus mattis.
+          </p>
+        </div>
+        <div id="card">
+          <div class="spotlight" id="s1">
+            <h1 class="div-title">Farmex</h1>
+            <div class="spot-logo">
+              <img src="images/farmex.png" alt="farmex-logo">
+            </div>
             <p>consultas@farmex.com.pe</p>
             <p>
               +51 630 6400 |
               <a href="https://www.farmex.com.pe/">farmex.com.pe</a>
             </p>
           </div>
-        </div>
-        <div class="spotlight" id="s2">
-          <h1>Santillana</h1>
-          <div class="spot-logo">
-            <img src="images/santillana.png" alt="santillana-logo">
+          <div class="spotlight" id="s2">
+            <h1 class="div-title">Santillana</h1>
+            <div class="spot-logo">
+              <img src="images/santillana.png" alt="santillana-logo">
+            </div>
             <p>contacto@santillana.com</p>
             <p>
               +51 942 443 216 |
               <a href="https://santillana.com.pe/">santillana.com.pe</a>
             </p>
           </div>
-        </div>
-        <div class="spotlight" id="s3">
-          <h1>Alma Love</h1>
-          <div class="spot-logo">
-            <img src="images/alma.png" alt="alma-love-logo">
+          <div class="spotlight" id="s3">
+            <h1 class="div-title">Alma Love</h1>
+            <div class="spot-logo">
+              <img src="images/alma.png" alt="alma-love-logo">
+            </div>
             <p>inversionesbtz@gmail.com</p>
             <p>
               +51 947 213 497 |
@@ -148,13 +150,13 @@
             </p>
           </div>
         </div>
-      </div>
-      <div id="join">
-        <button>Join Us!</button>
-        <p>
-          Discover how to join the Chamber of Commerce and how it will benefit
-          your organization!
-        </p>
+        <div id="join">
+          <button>Join Us!</button>
+          <p>
+            Discover how to join the Chamber of Commerce and how it will benefit
+            your organization!
+          </p>
+        </div>
       </div>
     </main>
     <footer>
