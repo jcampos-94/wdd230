@@ -1,3 +1,5 @@
+/*---------- HOME ----------*/
+
 html,
 body {
   overflow-x: hidden;
@@ -141,16 +143,19 @@ time {
 /*---------- MAIN ----------*/
 
 main {
-  margin: 2%;
+  margin: 5% 2%;
 }
 
-h1 {
+h1, h2 {
   font-family: Satisfy, cursive;
-  margin-top: 0.3rem;
   color: #5f1a37;
 }
 
-main > div {
+.div-title {
+  margin-top: 0.3rem;
+}
+
+main div {
   text-align: center;
   border: 1px solid #d32b1e;
   padding: 1rem;
@@ -159,13 +164,20 @@ main > div {
   box-shadow: 1px 1px 8px 5px #5f1a37;
 }
 
-main > div > p {
+#home-grid {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+main p {
   font-size: 1.2rem;
   margin-top: 2rem;
   color: #d32b1e;
 }
 
-main > div > a {
+main > div > div > a {
   color: #5f1a37;
   font-size: 1.2rem;
 }
@@ -264,6 +276,17 @@ main > div > a {
   box-shadow: 1px 1px 8px 5px #5f1a37;
 }
 
+.spot-logo {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+.spotlight p {
+  font-size: 1.2rem;
+}
+
 .spotlight a {
   color: #5f1a37;
 }
@@ -328,4 +351,52 @@ footer a {
 
 #footerData2 {
   display: none;
+}
+
+/*---------- DISCOVER ----------*/
+
+/*---------- MAIN ----------*/
+
+.discover-data {
+  border: none;
+  box-shadow: none;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+.discover-title {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+th {
+  color: #5f1a37;
+}
+
+td {
+  color: #d32b1e;
+}
+
+ul {
+  text-align: left;
+  color: #d32b1e;
+  font-size: 1.2rem;
+  padding: 0;
+  margin-left: 6.5%;
+}
+
+.image-test {
+  margin: 0 5%;
 }

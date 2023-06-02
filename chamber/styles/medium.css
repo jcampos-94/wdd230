@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 735px) {
   /*---------- BANNER ----------*/
 
   body > div {
@@ -37,18 +37,18 @@
 
   /*---------- MAIN ----------*/
 
-  main {
+  #home-grid {
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
     gap: 0.5rem;
     font-size: 1.5rem;
   }
 
-  main > div > p {
+  main >div > div > p {
     font-size: 1.5rem;
   }
 
-  main > div > a {
+  main >div > div > a {
     font-size: 1.5rem;
   }
 
@@ -88,6 +88,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
+  }
+
+  .spotlight p {
+    font-size: 1.5rem;
   }
 
   #s1,

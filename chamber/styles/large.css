@@ -2,7 +2,7 @@
   /*---------- HEADER ----------*/
 
   header .logo {
-    max-width: 25%;
+    max-width: 15%;
   }
 
   nav:nth-child(2) {
@@ -49,8 +49,10 @@
 
   /*---------- MAIN ----------*/
 
-  main {
+  #home-grid {
     grid-template-columns: 1fr 2fr 1fr;
+    max-width: 90%;
+    margin: 2% auto;
   }
 
   #hero {
@@ -156,6 +158,10 @@
 
   footer {
     padding: 1% 5%;
+  }
+
+  #whiteP {
+    max-width: 40%;
   }
 
   #addressId,

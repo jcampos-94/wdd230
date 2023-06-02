@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Juan Campos' WDD 230 Peruvian Chamber of Commerce">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Satisfy&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Peruvian Chamber of Commerce</title>
+  </head>
+  <body>
+    <div id="banner" class="close">
+      <div>
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+      </div>
+      <button id="bannerX">X</button>
+    </div>
+    <header>
+      <figure class="logo">
+        <img
+          src="images/logo.webp"
+          alt="logo"
+          sizes="(max-width: 1199px) 50vw, 25vw"
+          srcset="images/logo300.webp 300w, images/logo600.webp 600w">
+      </figure>
+      <nav>
+        <a href="https://www.facebook.com/CamaraComercioPeruOficial">
+          <img
+            class="smedia"
+            id="facebook"
+            src="images/facebook.png"
+            alt="facebook">
+        </a>
+        <a href="https://www.linkedin.com/in/camaranacionalperu/">
+          <img
+            class="smedia"
+            id="linkedIn"
+            src="images/linked.png"
+            alt="linkedIn">
+        </a>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="../chamber/">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <time datetime="2018-05-12"></time>
+      <!-- datetime used as filler to avoid html errors -->
+    </header>
+    <main>
+      <h1 class="discover-title">Demographic Data about Peru</h1>
+      <div class="discover-data">
+        <h2 class="discover-title">Population</h2>
+        <p>Peru has a population of approximately 33 million people, making it the third most populous country in South America.</p>
+        <h2 class="discover-title">Capital</h2>
+        <p>The capital city of Peru is Lima, which is also the largest city in the country.</p>
+        <h2 class="discover-title">Language</h2>
+        <p>The official language of Peru is Spanish. However, there are also several indigenous languages spoken throughout the country, such as Quechua and Aymara.</p>
+        <h2 class="discover-title">Ethnicity</h2>
+        <ul>
+            <li>Mestizos (people of mixed European and indigenous descent)</li>
+            <li>Indigenous groups</li>
+            <li>People of African, Asian, and European ancestry</li>
+        </ul>
+        <h2 class="discover-title">Economy</h2>
+        <p>Peru has a growing and diverse economy. It is known for its mining and mineral resources, including copper, gold, silver, and zinc. Other important sectors include agriculture, manufacturing, services, and tourism.</p>
+        <h2 class="discover-title">GDP per Capita</h2>
+        <table>
+            <tr>
+            <th>Year</th>
+            <th>GDP per Capita (USD)</th>
+            </tr>
+            <tr>
+            <td>2016</td>
+            <td>$6,163.80</td>
+            </tr>
+            <tr>
+            <td>2017</td>
+            <td>$6,676.30</td>
+            </tr>
+            <tr>
+            <td>2018</td>
+            <td>$6,912.10</td>
+            </tr>
+            <tr>
+            <td>2019</td>
+            <td>$6,955.80</td>
+            </tr>
+            <tr>
+            <td>2020</td>
+            <td>$6,056.30</td>
+            </tr>
+            <tr>
+            <td>2021</td>
+            <td>$6,621.60</td>
+            </tr>
+        </table>
+      </div>
+      <div class="image-test"></div>
+    </main>
+    <footer>
+      <picture id="whiteP">
+        <img
+          src="images/whitep310.png"
+          alt="whiteP"
+          sizes="(max-width: 600px) 36vw, 16.2vw"
+          srcset="images/whitep220.png 220w, images/whitep310.png 310w">
+      </picture>
+      <div id="addressId">
+        <p id="name">Peruvian Chamber of Commerce</p>
+        <p class="address">Av. Arequipa 398</p>
+        <p class="address">Lima, Perú</p>
+      </div>
+      <div id="contactId">
+        <p id="fcontact1">informes@diplomados.org.pe</p>
+        <p id="fcontact2">+51 952 864 977</p>
+        <a
+          href="https://www.google.com/maps/place/Av.+Arequipa+398,+Lima+15046/@-12.0681435,-77.0397219,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c8eb9089e8bf:0x4cf2d9cb4c65de98!8m2!3d-12.0681488!4d-77.037147!16s%2Fg%2F11c22wy9kh"
+          >Location Map</a>
+      </div>
+      <div id="footerData">
+        <p>&copy;<span id="currentYear"></span> Peruvian Chamber</p>
+        <p>Juan Campos</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="lastUpdated"></span></p>
+      </div>
+      <div id="footerData2">
+        <p>
+          &copy;<span id="currentYear2"></span> Peruvian Chamber | Juan Campos |
+          WDD 230 Project | Last Modification: <span id="lastUpdated2"></span>
+        </p>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+</html>
