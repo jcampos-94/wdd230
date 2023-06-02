@@ -44,11 +44,11 @@
     font-size: 1.5rem;
   }
 
-  main >div > div > p {
+  main p {
     font-size: 1.5rem;
   }
 
-  main >div > div > a {
+  main a {
     font-size: 1.5rem;
   }
 
@@ -88,10 +88,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
-  }
-
-  .spotlight p {
-    font-size: 1.5rem;
   }
 
   #s1,

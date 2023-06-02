@@ -177,7 +177,7 @@ main p {
   color: #d32b1e;
 }
 
-main > div > div > a {
+main a {
   color: #5f1a37;
   font-size: 1.2rem;
 }
@@ -281,14 +281,6 @@ main > div > div > a {
   padding: 0;
   margin: 0;
   box-shadow: none;
-}
-
-.spotlight p {
-  font-size: 1.2rem;
-}
-
-.spotlight a {
-  color: #5f1a37;
 }
 
 .spot-logo img {
