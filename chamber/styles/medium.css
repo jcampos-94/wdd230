@@ -41,7 +41,6 @@
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
     gap: 0.5rem;
-    font-size: 1.5rem;
   }
 
   main p {
@@ -154,5 +153,32 @@
     grid-column: 1/4;
     display: flex;
     margin: 1rem auto;
+  }
+
+  /*---------- DISCOVER ----------*/
+
+  /*---------- MAIN ----------*/
+
+  #discover-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .discover-section {
+    margin-bottom: 8%;
+
+  }
+
+  .discover-images, .discover-data {
+    margin: auto 0;
+  }
+
+  #discover-last-section, #discover-last-image {
+    margin-bottom: 0;
+  }
+
+  ul, table {
+    font-size: 1.5rem;
   }
 }

@@ -168,4 +168,13 @@
   #contactId {
     margin-top: -3rem;
   }
+
+  /*---------- DISCOVER ----------*/
+
+  /*---------- MAIN ----------*/
+
+  #discover-grid {
+    grid-template-columns: 2.5fr 1fr;
+    gap: 10%;
+  }
 }

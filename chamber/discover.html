@@ -63,80 +63,114 @@
     </header>
     <main>
       <h1 class="discover-title">Demographic Data about Peru</h1>
-      <div class="discover-data">
-        <h2 class="discover-title">Population</h2>
-        <p>
-          Peru has a population of approximately 33 million people, making it
-          the third most populous country in South America.
-        </p>
-        <h2 class="discover-title">Capital</h2>
-        <p>
-          The capital city of Peru is Lima, which is also the largest city in
-          the country.
-        </p>
-        <h2 class="discover-title">Language</h2>
-        <p>
-          The official language of Peru is Spanish. However, there are also
-          several indigenous languages spoken throughout the country, such as
-          Quechua and Aymara.
-        </p>
-        <h2 class="discover-title">Ethnicity</h2>
-        <ul>
-          <li>Mestizos (people of mixed European and indigenous descent)</li>
-          <li>Indigenous groups</li>
-          <li>People of African, Asian, and European ancestry</li>
-        </ul>
-        <h2 class="discover-title">Economy</h2>
-        <p>
-          Peru has a growing and diverse economy. It is known for its mining and
-          mineral resources, including copper, gold, silver, and zinc. Other
-          important sectors include agriculture, manufacturing, services, and
-          tourism.
-        </p>
-        <h2 class="discover-title">GDP per Capita</h2>
-        <table>
-          <tr>
-            <th>Year</th>
-            <th>GDP per Capita (USD)</th>
-          </tr>
-          <tr>
-            <td>2016</td>
-            <td>$6,163.80</td>
-          </tr>
-          <tr>
-            <td>2017</td>
-            <td>$6,676.30</td>
-          </tr>
-          <tr>
-            <td>2018</td>
-            <td>$6,912.10</td>
-          </tr>
-          <tr>
-            <td>2019</td>
-            <td>$6,955.80</td>
-          </tr>
-          <tr>
-            <td>2020</td>
-            <td>$6,056.30</td>
-          </tr>
-          <tr>
-            <td>2021</td>
-            <td>$6,621.60</td>
-          </tr>
-        </table>
+      <div id="discover-grid">
+        <div class="discover-data">
+          <section class="discover-section">
+            <h2 class="discover-title">Population</h2>
+            <p>
+              Peru has a population of approximately 33 million people, making it
+              the third most populous country in South America.
+            </p>
+          </section>
+          <section class="discover-section">
+            <h2 class="discover-title">Capital</h2>
+            <p>
+              The capital city of Peru is Lima, which is also the largest city in
+              the country.
+            </p>
+          </section>
+          <section class="discover-section">
+            <h2 class="discover-title">Language</h2>
+            <p>
+              The official language of Peru is Spanish. However, there are also
+              several indigenous languages spoken throughout the country, such as
+              Quechua and Aymara.
+            </p>
+          </section>
+          <section class="discover-section">
+            <h2 class="discover-title">Ethnicity</h2>
+            <ul>
+              <li>Mestizos (people of mixed European and indigenous descent)</li>
+              <li>Indigenous groups</li>
+              <li>People of African, Asian, and European ancestry</li>
+            </ul>
+          </section>
+          <section class="discover-section">
+            <h2 class="discover-title">Economy</h2>
+            <p>
+              Peru has a growing and diverse economy. It is known for its mining and
+              mineral resources, including copper, gold, silver, and zinc. Other
+              important sectors include agriculture, manufacturing, services, and
+              tourism.
+            </p>
+          </section>
+          <section class="discover-section" id="discover-last-section">
+            <h2 class="discover-title">GDP per Capita</h2>
+            <table>
+              <tr>
+                <th>Year</th>
+                <th>GDP per Capita (USD)</th>
+              </tr>
+              <tr>
+                <td>2016</td>
+                <td>$6,163.80</td>
+              </tr>
+              <tr>
+                <td>2017</td>
+                <td>$6,676.30</td>
+              </tr>
+              <tr>
+                <td>2018</td>
+                <td>$6,912.10</td>
+              </tr>
+              <tr>
+                <td>2019</td>
+                <td>$6,955.80</td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td>$6,056.30</td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td>$6,621.60</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <div class="discover-images">
+          <picture class="discover-image">
+            <img src="images/colca-canyon661.jpg"
+            alt="Colca Canyon"
+            srcset="images/colca-canyon661.jpg 1x, images/colca-canyon1322.jpg 2x, images/colca-canyon1982.jpg 3x">
+            <figcaption>The Colca Canyon</figcaption>
+          </picture>
+          <picture class="discover-image">
+            <img src="images/kuelap661.jpg"
+            alt="Kuelap Archaeological Complex"
+            srcset="images/kuelap661.jpg 1x, images/kuelap1322.jpg 2x, images/kuelap1982.jpg 3x">
+            <figcaption>The Kuelap Archaeological Complex</figcaption>
+          </picture>
+          <picture class="discover-image">
+            <img src="images/cumbemayo661.jpg"
+            alt="Cumbemayo"
+            srcset="images/cumbemayo661.jpg 1x, images/cumbemayo1322.jpg 2x, images/cumbemayo1982.jpg 3x">
+            <figcaption>Cumbemayo</figcaption>
+          </picture>
+          <picture class="discover-image">
+            <img src="images/lima-main-plaza661.jpg"
+            alt="Lima's Plaza de Armas"
+            srcset="images/lima-main-plaza661.jpg 1x, images/lima-main-plaza1322.jpg 2x, images/lima-main-plaza1982.jpg 3x">
+            <figcaption>Lima's Plaza de Armas</figcaption>
+          </picture>
+          <picture class="discover-image" id="discover-last-image">
+            <img src="images/san-francisco-convent661.jpg"
+            alt="San Francisco Convent"
+            srcset="images/san-francisco-convent661.jpg 1x, images/san-francisco-convent1322.jpg 2x, images/san-francisco-convent1982.jpg 3x">
+            <figcaption>San Francisco Convent</figcaption>
+          </picture>
+        </div>
       </div>
-      <picture class="discover-image">
-        <img src="images/colca-canyon661.jpg"
-        alt="Colca Canyon"
-        srcset="images/colca-canyon661.jpg 1x, images/colca-canyon1322.jpg 2x, images/colca-canyon1982.jpg 3x">
-        <figcaption>The Colca Canyon</figcaption>
-      </picture>
-      <picture class="discover-image">
-        <img src="images/kuelap661.jpg"
-        alt="Kuelap Archaeological Complex"
-        srcset="images/kuelap661.jpg 1x, images/kuelap1322.jpg 2x, images/kuelap1982.jpg 3x">
-        <figcaption>The Kuelap Archaeological Complex</figcaption>
-      </picture>
     </main>
     <footer>
       <picture id="whiteP">
