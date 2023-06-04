@@ -174,7 +174,13 @@
   /*---------- MAIN ----------*/
 
   #discover-grid {
-    grid-template-columns: 2.5fr 1fr;
-    gap: 10%;
+    grid-template-columns: 2fr 1fr;
+    gap: 5%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .discover-image:hover {
+    box-shadow: 1px 1px 14px 7px rgba(95, 26, 55, 0.8);
   }
 }

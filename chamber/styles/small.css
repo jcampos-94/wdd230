@@ -397,8 +397,21 @@ ul {
 
 .discover-image img {
   width: 100%;
+  vertical-align: middle;
 }
 
 figcaption {
   text-align: center;
+  font-size: 1.2rem;
+  background-color: #d32b1e;
+  color: white;
+  padding: 10px;
+}
+
+img[data-srcset] {
+  filter: blur(0.2em);
+}
+
+img {
+  transition: filter 0.8s;
 }

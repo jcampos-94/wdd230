@@ -178,7 +178,7 @@
     margin-bottom: 0;
   }
 
-  ul, table {
+  ul, table, figcaption {
     font-size: 1.5rem;
   }
 }
