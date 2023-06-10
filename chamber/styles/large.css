@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1223px) {
   /*---------- HEADER ----------*/
 
   header .logo {
@@ -87,7 +87,7 @@
     bottom: 3rem;
   }
 
-  #event > div {
+  #event > picture {
     display: none;
   }
 
@@ -182,5 +182,30 @@
 
   .discover-image:hover {
     box-shadow: 1px 1px 14px 7px rgba(95, 26, 55, 0.8);
+  }
+
+  /*---------- JOIN ----------*/
+
+  /*---------- MAIN ----------*/
+
+  .form-data {
+    max-width: 65rem;
+  }
+
+  #membership-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .membership-benefits {
+    display: block;
+    margin-right: auto;
+    margin-top: auto;
+  }
+
+  /*---------- FORM ----------*/
+
+  form fieldset {
+    max-width: 62rem;
   }
 }

@@ -62,47 +62,82 @@
       <!-- datetime used as filler to avoid html errors -->
     </header>
     <main>
-      <div id="join-grid">
-        <h1>Join Our Website</h1>
-    <form method="get" action="thankyou.html">
-      <label for="first-name">First Name:</label>
-      <input type="text" id="first-name" name="first-name" required>
-      
-      <label for="last-name">Last Name:</label>
-      <input type="text" id="last-name" name="last-name" required>
-      
-      <label for="position-title">Business Position Title:</label>
-      <input type="text" id="position-title" name="position-title" pattern="[A-Za-z\s-]{7,}" title="Minimum 7 characters, only alphabets, hyphens, and spaces allowed">
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required placeholder="example@example.com">
-      
-      <label for="cell-phone">Cell Phone Number:</label>
-      <input type="tel" id="cell-phone" name="cell-phone" required>
-      
-      <label for="business-name">Business Name/Title:</label>
-      <input type="text" id="business-name" name="business-name" required>
-      
-      <label for="membership-level">Membership Level:</label>
-      <select id="membership-level" name="membership-level">
-        <option value="non-profit">NP Membership (Non-Profit)</option>
-        <option value="bronze">Bronze Membership</option>
-        <option value="silver">Silver Membership</option>
-        <option value="gold">Gold Membership</option>
-      </select>
-      
-      <div class="membership-benefits">
-        <!-- Display membership level benefits here -->
-      </div>
-      
-      <label for="business-description">Business Description:</label>
-      <textarea id="business-description" name="business-description"></textarea>
-      
-      <input type="hidden" name="form-loaded-date" value="<?php echo date('Y-m-d H:i:s'); ?>">
-      
-      <input type="submit" value="Submit">
-    </form>
-        
+      <div id="join-div">
+        <div class="form-data">
+            <h1>Join the Chamber</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Member Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="example@example.com" required></label>
+                    <label class="top">Cell Phone Number*<input type="tel" name="phone" required></label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name*<input type="text" name="business-name" required></label>
+                    <label class="top">Business Position Title<input type="text" name="position-title" pattern="[a-zA-Z\s\-]{7,}" title="Minimum 7 characters. Only letters, hyphens, and spaces allowed"></label>
+                    <label class="top">Business Description<textarea id="business-description" name="business-description"></textarea></label>
+                    
+                    <div id="membership-grid">
+                        <div id="membership-div">
+                            <span>Membership Level</span>
+                            <label class="sbs"><input type="radio" name="membership-level" value="non-profit" required> NP Membership (Non-Profit)</label>
+                            <label class="sbs"><input type="radio" name="membership-level" value="bronze"> Bronze Membership</label>
+                            <label class="sbs"><input type="radio" name="membership-level" value="silver"> Silver Membership</label>
+                            <label class="sbs"><input type="radio" name="membership-level" value="gold"> Gold Membership</label>
+                        </div>
+                        
+                        <table  class="membership-benefits">
+                            <tr>
+                                <th colspan="5">Membership Level Benefits</th>
+                            </tr>
+                            <tr>
+                                <th>&#8203;</th>
+                                <th>NP</th>
+                                <th>Bronze</th>
+                                <th>Silver</th>
+                                <th>Gold</th>
+                            </tr>
+                            <tr>
+                                <td>Advertising</td>
+                                <td class="check">&#10004;</td>
+                                <td class="check">&#10004;</td>
+                                <td class="check">&#10004;</td>
+                                <td class="check">&#10004;</td>
+                            </tr>
+                            <tr>
+                                <td>Training Opportunities</td>
+                                <td class="cross">&#10006;</td>
+                                <td class="check">&#10004;</td>
+                                <td class="check">&#10004;</td>
+                                <td class="check">&#10004;</td>
+                            </tr>
+                            <tr>
+                                <td>Event Discounts</td>
+                                <td class="cross">&#10006;</td>
+                                <td class="cross">&#10006;</td>
+                                <td class="check">&#10004;</td>
+                                <td class="check">&#10004;</td>
+                            </tr>
+                            <tr>
+                                <td>Exclusive Access</td>
+                                <td class="cross">&#10006;</td>
+                                <td class="cross">&#10006;</td>
+                                <td class="cross">&#10006;</td>
+                                <td class="check">&#10004;</td>
+                                </tr>
+                            </table>
+                    </div>
+                </fieldset>
+                
+
+                <input type="hidden" name="form-loaded-date" id="form-loaded-date">
+                
+                <input class="submitBtn" type="submit" value="Join the Chamber">
+            </form>
+        </div>
       </div>
     </main>
     <footer>

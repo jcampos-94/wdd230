@@ -63,7 +63,7 @@
     box-shadow: 1px 1px 8px 5px rgba(95, 26, 55, 0.8);
   }
 
-  #event > div {
+  #event > picture {
     display: block;
   }
 
@@ -167,18 +167,54 @@
 
   .discover-section {
     margin-bottom: 8%;
-
   }
 
-  .discover-images, .discover-data {
+  .discover-images,
+  .discover-data {
     margin: auto 0;
   }
 
-  #discover-last-section, #discover-last-image {
+  #discover-last-section,
+  #discover-last-image {
     margin-bottom: 0;
   }
 
-  ul, table, figcaption {
+  ul,
+  table,
+  figcaption {
+    font-size: 1.5rem;
+  }
+
+  /*---------- JOIN ----------*/
+
+  /*---------- MAIN ----------*/
+
+  .form-data {
+    max-width: 39rem;
+  }
+
+  /*---------- FORM ----------*/
+
+  form {
+    font-size: 1.5rem;
+  }
+
+  form fieldset {
+    max-width: 34rem;
+  }
+
+  form label.top,
+  form span {
+    padding-top: 1.3rem;
+    font-size: 1.3rem;
+  }
+
+  form label.top input,
+  form label.top textarea {
+    font-size: 1.5rem;
+  }
+
+  form label.sbs {
     font-size: 1.5rem;
   }
 }

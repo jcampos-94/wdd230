@@ -1,3 +1,10 @@
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*---------- HOME ----------*/
 
 html,
@@ -146,7 +153,8 @@ main {
   margin: 5% 2%;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Satisfy, cursive;
   color: #5f1a37;
 }
@@ -164,7 +172,8 @@ main div {
   box-shadow: 1px 1px 8px 5px #5f1a37;
 }
 
-#home-grid, #discover-grid {
+#home-grid,
+#discover-grid {
   border: none;
   padding: 0;
   margin: 0;
@@ -222,7 +231,7 @@ main a {
   box-shadow: 1px 1px 8px 3px rgba(95, 26, 55, 0.8);
 }
 
-#event > div {
+#event > picture {
   display: none;
 }
 
@@ -349,7 +358,8 @@ footer a {
 
 /*---------- MAIN ----------*/
 
-.discover-data, .discover-images {
+.discover-data,
+.discover-images {
   border: none;
   box-shadow: none;
 }
@@ -364,12 +374,12 @@ h2 {
 
 table {
   text-align: center;
-  max-width: fit-content;
   margin: 0 auto;
   font-size: 1.2rem;
 }
 
-th, td {
+th,
+td {
   border: 1px solid black;
   padding: 0.5rem;
 }
@@ -414,4 +424,114 @@ img[data-srcset] {
 
 img {
   transition: filter 0.8s;
+}
+
+/*---------- JOIN ----------*/
+
+/*---------- MAIN ----------*/
+
+#join-div, #membership-grid, #membership-div {
+  border: none;
+  box-shadow: none;
+}
+
+#membership-grid, #membership-div {
+  text-align: left;
+  padding: 0;
+}
+
+.form-data {
+  max-width: 26rem;
+  margin: auto;
+}
+
+.membership-benefits {
+  display: none;
+}
+
+/*---------- FORM ----------*/
+
+form {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+form fieldset {
+  max-width: 23.1rem;
+  margin: 2rem auto;
+  border: 1px solid #d32b1e;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: #d32b1e;
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+form label.top,
+form span {
+  display: block;
+  padding-top: 1rem;
+  color: #5f1a37;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+form label.top input,
+form label.top textarea {
+  display: block;
+  font-size: 1.2rem;
+  border: 1px solid #d32b1e;
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 22rem;
+  color: #d32b1e;
+}
+
+form label.top input:focus,
+form label.top textarea:focus {
+  outline-color: #5f1a37;
+}
+
+form label.sbs {
+  display: block;
+  font-size: 1.2rem;
+  color: #d32b1e;
+  padding: 0.75rem;
+}
+
+[type="radio"] {
+  accent-color: #5f1a37;
+}
+
+form input.submitBtn {
+  display: block;
+  border: none;
+  background-color: #d32b1e;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 auto 2rem auto;
+  width: 100%;
+  max-width: 23.1rem;
+}
+
+/*---------- AUTOCOMPLETE ----------*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #d32b1e;
+  -webkit-text-fill-color: #d32b1e;
+  -webkit-box-shadow: none;
+  transition: background-color 5000s ease-in-out 0s;
 }
