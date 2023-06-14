@@ -1,0 +1,37 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Eczar', serif;
+}
+
+div.cards {
+    margin-bottom: 2rem;
+    border: 1px solid darkgray;
+    box-shadow: 0px 0px 8px 5px darkgray;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(385px, 1fr));
+}
+
+section {
+    border: 2px solid steelblue;
+    margin: 1rem;
+    background-color: rgb(142, 190, 228);
+    padding: 0.3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+footer {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: rgb(142, 190, 228);
+}
