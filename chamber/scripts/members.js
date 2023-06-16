@@ -1,7 +1,7 @@
-const url = 'json/data.json';
+const file = 'json/data.json';
 
 async function getMemberData() {
-  const response = await fetch(url);
+  const response = await fetch(file);
   const data = await response.json();
   console.table(data.members);
   displayMembers(data.members);
