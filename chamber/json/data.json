@@ -5,63 +5,72 @@
       "address": "C. Dean Valdivia 148, San Isidro",
       "phone": "+511 630 6400",
       "webSite": "farmex.com.pe",
-      "url": "https://www.farmex.com.pe/"
+      "url": "https://www.farmex.com.pe/",
+      "img": "images/farmex.png"
     },
     {
       "name": "Santillana",
       "address": "Av. Primavera 2160, Santiago de Surco",
       "phone": "+511 942 443 216",
       "webSite": "santillana.com.pe",
-      "url": "https://santillana.com.pe/"
+      "url": "https://santillana.com.pe/",
+      "img": "images/santillana.png"
     },
     {
       "name": "Alma Love",
       "address": "Virtual Only",
       "phone": "+511 947 213 497",
       "webSite": "almaloveshop.com",
-      "url": "https://www.almaloveshop.com/"
+      "url": "https://www.almaloveshop.com/",
+      "img": "images/alma.png"
     },
     {
       "name": "Ajinomoto",
       "address": "Av. República de Panamá 2455, Lima",
       "phone": "+511 470 6050",
       "webSite": "ajinomoto.com.pe",
-      "url": "https://www.ajinomoto.com.pe/"
+      "url": "https://www.ajinomoto.com.pe/",
+      "img": "images/ajinomoto.png"
     },
     {
       "name": "Radiadores Fortaleza",
       "address": "Av. Separadora Industrial 1555, Ate",
       "phone": "+511 435 7630",
       "webSite": "radiadores.com.pe",
-      "url": "http://www.radiadores.com.pe/"
+      "url": "http://www.radiadores.com.pe/",
+      "img": "images/radiadores.png"
     },
     {
       "name": "Alicorp",
       "address": "Av. Argentina 4793, Carmen de La Legua",
       "phone": "+511 315 0800",
       "webSite": "alicorp.com.pe",
-      "url": "https://www.alicorp.com.pe/pe/es/"
+      "url": "https://www.alicorp.com.pe/pe/es/",
+      "img": "images/alicorp.png"
     },
     {
       "name": "Ecco",
       "address": "Avenida de la Marina 2100, San Miguel",
       "phone": "+511 203 7013",
       "webSite": "ecco.pe",
-      "url": "https://ecco.pe/"
+      "url": "https://ecco.pe/",
+      "img": "images/ecco.png"
     },
     {
       "name": "UTP",
       "address": "Av. Arequipa 265, Lima",
       "phone": "+511 315 9610",
       "webSite": "utp.edu.pe",
-      "url": "https://www.utp.edu.pe/"
+      "url": "https://www.utp.edu.pe/",
+      "img": "images/utp.png"
     },
     {
       "name": "MiFarma",
       "address": "Cappa 193, Callao",
       "phone": "+511 612 5000",
       "webSite": "mifarma.com.pe",
-      "url": "https://www.mifarma.com.pe/"
+      "url": "https://www.mifarma.com.pe/",
+      "img": "images/mifarma.png"
     }
   ]
 }
