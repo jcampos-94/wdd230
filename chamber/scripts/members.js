@@ -19,14 +19,15 @@ const displayMembers = (members) => {
       name.classList.add("memberName");
       let address = document.createElement('p');
       let phone = document.createElement('p');
-      let webSite = document.createElement('p');
+      let webSite = document.createElement('a');
 
       // Build the h2 and p content out to show the name, address, phone and website
       name.innerHTML = `${member.name}`;
       address.innerHTML = `${member.address}`;
       phone.innerHTML = `${member.phone}`;
       phone.classList.add("phoneNumber");
-      webSite.innerHTML = `<a href="${member.url}">${member.webSite}</a></li>`;
+      webSite.innerHTML = `${member.webSite}`;
+      webSite.setAttribute('href', `${member.url}`);
   
       // Build the logo by setting all the relevant attributes
       logo.setAttribute('src', member.img);
