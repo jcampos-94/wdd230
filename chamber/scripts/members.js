@@ -17,6 +17,7 @@ const displayMembers = (members) => {
 
       let logo = document.createElement('img');
       let name = document.createElement('h2');
+      name.classList.add("memberName");
       let address = document.createElement('p');
       let phone = document.createElement('p');
       let webSite = document.createElement('p');
