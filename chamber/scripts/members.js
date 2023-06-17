@@ -8,22 +8,37 @@ async function getMemberData() {
 }
 
 const displayMembers = (members) => {
-    const cards = document.querySelector('div.cards'); // select the output container element
+    const cards = document.querySelector('div.memberCards'); // select the output container element
   
     members.forEach((member) => {
       // Create elements to add to the div.cards element
-      let card = document.createElement('section');
+      let card = document.createElement('div');
+      card.classList.add("member");
 
-      let portrait = document.createElement('img');
+      let logo = document.createElement('img');
+      let name = document.createElement('h2');
+      let address = document.createElement('p');
+      let phone = document.createElement('p');
+      let webSite = document.createElement('p');
+
+      // Build the h2 and p content out to show the name, address, phone and website
+      name.innerHTML = `${member.name}`;
+      address.innerHTML = `${member.address}`;
+      phone.innerHTML = `${member.phone}`;
+      phone.classList.add("phoneNumber");
+      webSite.innerHTML = `<a href="${member.url}">${member.webSite}</a></li>`;
   
-  
-      // Build the image portrait by setting all the relevant attribute
-      portrait.setAttribute('src', member.img);
-      portrait.setAttribute('alt', `${member.name}'s logo`);
-      portrait.setAttribute('loading', 'lazy');
+      // Build the logo by setting all the relevant attributes
+      logo.setAttribute('src', member.img);
+      logo.setAttribute('alt', `${member.name}'s logo`);
+      logo.setAttribute('loading', 'lazy');
   
       // Append the section(card) with the created elements
-      card.appendChild(portrait);
+      card.appendChild(logo);
+      card.appendChild(name);
+      card.appendChild(address);
+      card.appendChild(phone);
+      card.appendChild(webSite);
   
       cards.appendChild(card);
     }); // end of forEach loop

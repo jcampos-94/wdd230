@@ -208,4 +208,16 @@
   form fieldset {
     max-width: 62rem;
   }
+
+  /*---------- DIRECTORY ----------*/
+
+  /*---------- MAIN ----------*/
+
+  div.memberCards.grid, div.memberCards.list{
+    max-width: 95%;
+  }
+
+  div.memberCards.list  div.member{
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  }
 }

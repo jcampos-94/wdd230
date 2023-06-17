@@ -217,4 +217,35 @@
   form label.sbs {
     font-size: 1.5rem;
   }
+
+  /*---------- DIRECTORY ----------*/
+
+  /*---------- MAIN ----------*/
+
+  div.memberCards.grid {
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+
+  div.memberCards.list {
+    padding: 0;
+  }
+
+  div.memberCards.list  div.member{
+    display: grid;
+    grid-template-columns: 120px repeat(auto-fit, minmax(165px, 1fr));
+    margin: 0;
+    padding: 0.5rem 0;
+    border: none;
+    box-shadow: none;
+    text-align: left;
+    align-items: center;
+  }
+
+  div.memberCards.list  div.member h2 {
+    font-size: 1.5rem;
+  }
+
+  div.memberCards.list  div.member .phoneNumber {
+    text-align: left;
+  }
 }

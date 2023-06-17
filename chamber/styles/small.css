@@ -535,3 +535,78 @@ select:-webkit-autofill:focus {
   -webkit-box-shadow: none;
   transition: background-color 5000s ease-in-out 0s;
 }
+
+/*---------- DIRECTORY ----------*/
+
+/*---------- MAIN ----------*/
+
+/*---------- MENU ----------*/
+
+.directoryMenu {
+	margin: 1rem auto;
+	border: none;
+  box-shadow: none;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.directoryMenu button {
+	padding: 1rem;
+	font-weight: 700;
+  color: #5f1a37;
+  font-size: 1.2rem;
+}
+
+hr {
+  border: 1px solid #5f1a37;
+}
+
+/*---------- MEMBERS ----------*/
+
+div.memberCards.grid {
+  border: none;
+  box-shadow: none;
+  margin: 0 auto 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(234px, 1fr));
+}
+
+div.member {
+  margin: 1rem;
+  padding: 0.8rem;
+}
+
+div.member img {
+  width: 386px;
+  max-width: 100%;
+}
+
+div.memberCards.list {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: none;
+  margin: 0 auto 2rem;
+}
+
+div.memberCards.list  div.member{
+  display: grid;
+	grid-template-columns: 1fr;
+	margin: 0;
+	padding: 0.25rem;
+  border: none;
+  box-shadow: none;
+  text-align: left;
+}
+
+div.memberCards.list  div.member img {
+	display: none;
+}
+
+div.memberCards.list  div.member > * {
+	margin: 0 1rem;
+}
+
+div.memberCards.list  div.member:nth-child(even) {
+	background-color: #cd979363;
+}
