@@ -571,6 +571,10 @@ div.memberCards.grid {
   grid-template-columns: repeat(auto-fit, minmax(234px, 1fr));
 }
 
+div.memberCards.grid  div.member h2.memberName {
+	display: none;
+}
+
 div.member {
   margin: 1rem;
   padding: 0.8rem;
