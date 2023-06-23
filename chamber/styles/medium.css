@@ -1,4 +1,4 @@
-@media screen and (min-width: 735px) {
+@media screen and (min-width: 600px) {
   /*---------- BANNER ----------*/
 
   body > div {
@@ -39,7 +39,7 @@
 
   #home-grid {
     display: grid;
-    grid-template-columns: 1.3fr 0.7fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
   }
 
@@ -63,12 +63,20 @@
     box-shadow: 1px 1px 8px 5px rgba(95, 26, 55, 0.8);
   }
 
+  #arequipa {
+    display: none;
+  }
+
+  #cusco {
+    display: block;
+  }
+
   #event > picture {
     display: block;
   }
 
   .weather-info {
-    margin-top: 1.75rem;
+    margin-top: 1.4rem;
   }
 
   #hero,

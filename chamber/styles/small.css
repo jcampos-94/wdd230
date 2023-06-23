@@ -208,6 +208,10 @@ main a {
   max-width: 100%;
 }
 
+#cusco, #lima {
+  display: none;
+}
+
 #hero p {
   position: absolute;
   top: -0.5rem;
@@ -231,13 +235,17 @@ main a {
   box-shadow: 1px 1px 8px 3px rgba(95, 26, 55, 0.8);
 }
 
+.button-active {
+  background-color: #ac241a;
+}
+
 #event > picture {
   display: none;
 }
 
 #weather {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.8fr 1.2fr;
 }
 
 #weather h1 {
@@ -252,27 +260,37 @@ main a {
   width: 100%;
 }
 
-#temperature {
-  font-size: 3rem;
-  grid-column: 2/3;
-  grid-row: 2/3;
+.temp-div {
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#cloudy {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  margin-top: 6rem;
+#temperature {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#temp-desc {
+  margin: 0;
 }
 
 .weather-data {
   text-align: right;
   font-family: Satisfy, cursive;
   font-size: 1.5rem;
+  align-self: center;
 }
 
 .weather-info {
   text-align: left;
+  margin-top: 1.3rem;
   margin-left: 1rem;
+  align-self: center;
 }
 
 .spotlight {

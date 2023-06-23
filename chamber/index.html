@@ -53,7 +53,7 @@
         <ul id="primaryNav">
           <li><a href="../chamber/">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
-          <li><a href="#">Directory</a></li>
+          <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -64,19 +64,13 @@
     <main>
       <div id="home-grid">
         <div id="hero">
-          <figure class="hero-img">
-            <img
-              src="images/week6hero.jpg"
-              alt="hero image"
-              sizes="(max-width: 599px) 576px, (max-width: 1199px) 1151px, 1620px"
-              srcset="
-                images/week6hero1152.png 1152w,
-                images/week6hero1620.png 1620w,
-                images/week6hero2302.png 2302w,
-                images/week6hero3240.png 3240w">
-          </figure>
+          <picture class="hero-img">
+            <source media="(max-width: 599px)" srcset="images/arequipa.jpg">
+            <source media="(max-width: 1286px)" srcset="images/cusco.jpg">
+            <img src="images/lima.jpg" alt="Lima">
+          </picture>
           <p>Welcome to Peru</p>
-          <button>Join the Chamber</button>
+          <a href="join.html"><button>Join the Chamber</button></a>
         </div>
         <div id="event">
           <h1 class="div-title">4th Franchise Masterclass</h1>
@@ -93,13 +87,14 @@
           <h1 class="div-title">Weather</h1>
           <picture>
             <img
-              src="images/cloudy.png"
-              alt="cloudy"
-              sizes="(max-width: 599px) 270px, (max-width: 1199px) 180px, 270px"
-              srcset="images/cloudy270.png 270w, images/cloudy180.png 180w">
+              src=""
+              alt=""
+              id="weather-icon">
           </picture>
-          <p id="temperature"><span id="celsius">21</span> ºC</p>
-          <p id="cloudy">Cloudy</p>
+          <div class="temp-div">
+            <p id="temperature"></p>
+            <p id="temp-desc"></p>
+          </div>
           <p class="weather-data">Wind Speed:</p>
           <p class="weather-info"><span id="speed">23</span> km/h</p>
           <p class="weather-data">Wind Chill:</p>
@@ -151,7 +146,7 @@
           </div>
         </div>
         <div id="join">
-          <button>Join Us!</button>
+          <a href="join.html"><button>Join Us!</button></a>
           <p>
             Discover how to join the Chamber of Commerce and how it will benefit
             your organization!

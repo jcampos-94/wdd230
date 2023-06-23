@@ -1,4 +1,4 @@
-@media screen and (min-width: 1223px) {
+@media screen and (min-width: 1287px) {
   /*---------- HEADER ----------*/
 
   header .logo {
@@ -119,6 +119,14 @@
     height: 84%;
   }
 
+  #hero button {
+    padding: 1.2rem;
+  }
+
+  #hero button:hover, #join button:hover {
+    background: #ac241a;
+  }
+
   #news {
     grid-row: 3/4;
   }
@@ -201,6 +209,14 @@
     display: block;
     margin-right: auto;
     margin-top: auto;
+  }
+
+  .check {
+    color: green;
+  }
+
+  .submitBtn:hover {
+    background-color: #ac241a;
   }
 
   /*---------- FORM ----------*/
