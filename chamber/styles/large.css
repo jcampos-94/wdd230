@@ -81,12 +81,6 @@
     text-shadow: 5px 1px 1px #5f1a37;
   }
 
-  #hero button {
-    font-size: 3rem;
-    right: 4rem;
-    bottom: 3rem;
-  }
-
   #event > picture {
     display: none;
   }
@@ -119,11 +113,14 @@
     height: 84%;
   }
 
-  #hero button {
+  .joinBtn {
+    font-size: 3rem;
+    right: 4rem;
+    bottom: 3rem;
     padding: 1.2rem;
   }
 
-  #hero button:hover, #join button:hover {
+  .joinBtn:hover, .joinBtn2:hover {
     background: #ac241a;
   }
 

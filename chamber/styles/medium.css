@@ -58,7 +58,7 @@
     text-shadow: 5px 1px 1px #5f1a37;
   }
 
-  #hero button {
+  .joinBtn {
     font-size: 1.8rem;
     box-shadow: 1px 1px 8px 5px rgba(95, 26, 55, 0.8);
   }
@@ -108,7 +108,8 @@
     padding-top: 2rem;
   }
 
-  #join button {
+  .joinBtn2 {
+    display: inline-block;
     border: none;
     background-color: #d32b1e;
     font-size: 1.8rem;
@@ -117,6 +118,7 @@
     border-radius: 20px;
     width: 100%;
     box-shadow: 1px 1px 8px 5px #5f1a37;
+    text-decoration: none;
   }
 
   /*---------- FOOTER ----------*/

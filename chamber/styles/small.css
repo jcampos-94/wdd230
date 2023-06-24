@@ -222,7 +222,7 @@ main a {
   text-shadow: 2px 1px 1px #5f1a37;
 }
 
-#hero button {
+.joinBtn {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
@@ -233,6 +233,7 @@ main a {
   padding: 0.8rem;
   border-radius: 15px;
   box-shadow: 1px 1px 8px 3px rgba(95, 26, 55, 0.8);
+  text-decoration: none;
 }
 
 .button-active {
