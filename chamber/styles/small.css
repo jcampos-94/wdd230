@@ -240,7 +240,7 @@ main a {
   background-color: #ac241a;
 }
 
-#event > picture {
+#event > figure {
   display: none;
 }
 
@@ -253,11 +253,11 @@ main a {
   grid-column: 1/3;
 }
 
-#weather picture {
+#weather figure {
   margin: auto;
 }
 
-#weather picture img {
+#weather figure img {
   width: 100%;
 }
 

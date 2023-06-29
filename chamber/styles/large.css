@@ -81,10 +81,6 @@
     text-shadow: 5px 1px 1px #5f1a37;
   }
 
-  #event > picture {
-    display: none;
-  }
-
   #event,
   #weather,
   #join {
