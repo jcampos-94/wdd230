@@ -241,7 +241,6 @@
     column-gap: 10px;
     max-width: 90%;
     margin: 2% auto;
-    align-items: center;
   }
   
   .contactus {
@@ -251,9 +250,5 @@
   .visitus {
     border-left: 1px solid #ac241a;
     padding-left: 30px;
-  }
-
-  .contact-form fieldset {
-    max-width: 23.1rem;
   }
 }
