@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Juan Campos' WDD 230 Peruvian Chamber of Commerce | Thank You Page">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Satisfy&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>PCC | Thank You Message</title>
+  </head>
+  <body>
+    <div id="banner" class="close">
+      <div>
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+      </div>
+      <button id="bannerX">X</button>
+    </div>
+    <header>
+      <figure class="logo">
+        <img
+          src="images/logo300.png"
+          alt="logo">
+      </figure>
+      <nav>
+        <a href="https://www.facebook.com/CamaraComercioPeruOficial">
+          <img
+            class="smedia"
+            id="facebook"
+            src="images/facebook.png"
+            alt="facebook">
+        </a>
+        <a href="https://www.linkedin.com/in/camaranacionalperu/">
+          <img
+            class="smedia"
+            id="linkedIn"
+            src="images/linked.png"
+            alt="linkedIn">
+        </a>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="../chamber/">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <time datetime="2018-05-12"></time>
+      <!-- datetime used as filler to avoid html errors -->
+    </header>
+    <main class="contact-main">
+        <section class="visitus">
+            <h2>Visit Us</h2>
+            <p>Administrative Offices: Av. Arequipa 398</p>
+            <p>WhatsApp: 952 864 977</p>
+            <p>E-mail:  informes@camaranacional.org.pe</p>
+            <br>
+            <h2>Points of Contact</h2>
+            <p>Luis Gonzales</p>
+            <p>President & CEO</p>
+            <p>(01) 234-5678, ext. 104</p>
+            <br>
+            <p>Maria Torres</p>
+            <p>Vice President of Marketing and Communications</p>
+            <p>(01) 987-6543, ext. 102</p>
+            <br>
+            <p>Carlos Rodriguez</p>
+            <p>Membership Director</p>
+            <p>(01) 876-5432, ext. 101</p>
+            <br>
+            <p>Ana Lopez</p>
+            <p>Bookkeeper/Grant Project Manager</p>
+            <p>(01) 345-6789</p>
+            <br>
+            <p>Pedro Gomez</p>
+            <p>Operations Assistant</p>
+            <p>(01) 987-6543, ext. 100</p>
+            <br>
+        </section>
+
+        <section class="contactus">
+            <h2>Contact Us</h2>
+    
+            <form method="get" action="message.html" class="contact-form">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">Name*<input type="text" name="name" required></label>
+                    <label class="top">Business<input type="text" name="business"></label>
+                    <label class="top">Email<input type="email" name="email" placeholder="example@example.com"></label>
+                    <label class="top">Cell Phone Number<input type="tel" name="phone"></label>
+                    <label class="top">Comments/Questions<textarea id="comments" name="comments"></textarea></label>
+                    <div id="membership-div">
+                        <span>Contact Preference*</span>
+                        <label class="sbs"><input type="radio" name="cont-email" value="email" required> Email</label>
+                        <label class="sbs"><input type="radio" name="cont-call" value="call"> Phone Call</label>
+                        <label class="sbs"><input type="radio" name="cont-message" value="message"> WhatsApp Message</label>
+                    </div>
+                </fieldset>
+    
+                <input class="submitBtn" type="submit" value="Contact Us">
+            </form>
+        </section>
+    </main>
+    <footer>
+      <figure id="whiteP">
+        <img
+          src="images/whitep310.png"
+          alt="whiteP"
+          sizes="(max-width: 600px) 36vw, 16.2vw"
+          srcset="images/whitep220.png 220w, images/whitep310.png 310w">
+      </figure>
+      <div id="addressId">
+        <p id="name">Peruvian Chamber of Commerce</p>
+        <p class="address">Av. Arequipa 398</p>
+        <p class="address">Lima, Perú</p>
+      </div>
+      <div id="contactId">
+        <p id="fcontact1">informes@diplomados.org.pe</p>
+        <p id="fcontact2">+51 952 864 977</p>
+        <a
+          href="https://www.google.com/maps/place/Av.+Arequipa+398,+Lima+15046/@-12.0681435,-77.0397219,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c8eb9089e8bf:0x4cf2d9cb4c65de98!8m2!3d-12.0681488!4d-77.037147!16s%2Fg%2F11c22wy9kh"
+          >Location Map</a>
+      </div>
+      <div id="footerData">
+        <p>&copy;<span id="currentYear"></span> Peruvian Chamber</p>
+        <p>Juan Campos</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="lastUpdated"></span></p>
+      </div>
+      <div id="footerData2">
+        <p>
+          &copy;<span id="currentYear2"></span> Peruvian Chamber | Juan Campos |
+          WDD 230 Project | Last Modification: <span id="lastUpdated2"></span>
+        </p>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

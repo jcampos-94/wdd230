@@ -230,4 +230,30 @@
   div.memberCards.list  div.member{
     grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
   }
+  
+  /*---------- CONTACT ----------*/
+  
+  /*---------- MAIN ----------*/
+  
+  .contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    max-width: 90%;
+    margin: 2% auto;
+    align-items: center;
+  }
+  
+  .contactus {
+    grid-row: 1/2;
+  }
+  
+  .visitus {
+    border-left: 1px solid #ac241a;
+    padding-left: 30px;
+  }
+
+  .contact-form fieldset {
+    max-width: 23.1rem;
+  }
 }

@@ -641,3 +641,22 @@ div.memberCards.list  div.member > * {
 div.memberCards.list  div.member:nth-child(even) {
 	background-color: #cd979363;
 }
+
+/*---------- CONTACT ----------*/
+
+/*---------- MAIN ----------*/
+
+.contact-main {
+  text-align: center;
+  margin: 5%;
+}
+
+.visitus {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-main section p {
+  line-height: 1rem;
+  text-align: left;
+}
