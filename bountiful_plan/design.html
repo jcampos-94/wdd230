@@ -10,32 +10,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto+Slab:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto+Slab&family=Ubuntu&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <title>BF Site Plan | Design</title>
   </head>
   <body>
     <header>
-      <h1>Bountiful Foods</h1>
+      <h1>Bountiful <span>Foods</span></h1>
       <nav>
         <a href="../bountiful_plan/">Home</a>
-        <a href="target_audience.html">Target Audience</a>
+        <a  id="nav-center" href="target_audience.html">Target Audience</a>
         <a href="design.html">Design</a>
       </nav>
     </header>
     <main>
       <h2>Color Scheme</h2>
-      <div>#E31E25</div>
-      <div>#7D71B1</div>
-      <div>#F69B3E</div>
-      <div>#FFFBDB</div>
-      <div>#50575D</div>
+      <div id="colors">
+        <div class="color" id="color1">#E31E25</div>
+        <div class="color" id="color2">#7D71B1</div>
+        <div class="color" id="color3">#F69B3E</div>
+        <div class="color" id="color4">#FFFBDB</div>
+        <div class="color" id="color5">#50575D</div>
+      </div>
       <h2>Typography</h2>
-      <p>Special Titles: <span>Mr Dafoe</span></p>
-      <p>Titles: <span>Roboto Slab</span></p>
+      <p>Special Titles: <span id="dafoe">Mr Dafoe</span></p>
+      <p>Titles: <span id="roboto">Roboto Slab</span></p>
       <p>Text: <span>Ubuntu</span></p>
       <h2>Wireframes</h2>
       <img src="images/small.png" alt="small wireframe">

@@ -1,0 +1,97 @@
+/*---------- Home ----------*/
+/*-----Header-----*/
+body {
+    font-family: 'Ubuntu', sans-serif;;
+    text-align: center;
+    color: #50575d;
+}
+
+header,
+footer {
+  background-color: #fffbdb;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+h1, #dafoe {
+    font-family: 'Mr Dafoe', cursive;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1 span {
+    font-size: 1.25rem;
+}
+
+h2,
+#roboto, h1 span {
+    font-family: 'Roboto Slab', serif;;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav a {
+    color: #50575d;
+    text-decoration: none;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #f69b3e;
+}
+
+/*-----Main-----*/
+main {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+/*---------- Design ----------*/
+/*-----Main-----*/
+#colors {
+    display: flex;
+    flex-direction: column;
+}
+
+.color {
+    width: 200px;
+    margin: 1rem auto 0;
+    padding: 1rem;
+    color: white;
+}
+
+#color1 {
+    background-color: #e31e25;
+}
+
+#color2 {
+    background-color: #7d71b1;
+}
+
+#color3 {
+    background-color: #f69b3e;
+}
+
+#color4 {
+    background-color: #fffbdb;
+    color: #50575d;
+}
+
+#color5 {
+    background-color: #50575d;
+}
+
+#dafoe {
+    font-size: 1.5rem;
+}

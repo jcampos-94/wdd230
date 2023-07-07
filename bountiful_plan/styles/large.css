@@ -1,0 +1,20 @@
+@media screen and (min-width: 1000px) {
+    /*---------- Home ----------*/
+    /*-----Header-----*/
+    nav a:hover {
+        background-color: #f69b3e;
+        color: white;
+    }
+
+    /*-----Main-----*/
+    main {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+
+    /*---------- Design ----------*/
+    /*-----Main-----*/
+    img {
+        margin-right: 2rem;
+    }
+}
