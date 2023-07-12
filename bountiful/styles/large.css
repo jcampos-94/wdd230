@@ -2,6 +2,7 @@
     /*---------- Home ----------*/
     /*-----Header-----*/
     nav a:hover {
+        background-color: transparent;
         color: #f69b3e;
     }
 
