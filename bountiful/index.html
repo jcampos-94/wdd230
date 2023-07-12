@@ -20,21 +20,27 @@
   </head>
   <body>
     <header>
-      <a href="../bountiful">
-        <img src="images/logo.png" alt="Bountiful Foods logo">
-      </a>
+      <div id="header-flex">
+        <a href="../bountiful">
+          <img src="images/logo.png" alt="Bountiful Foods logo">
+        </a>
+        
+        <div id="social-flex">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.png" alt="Facebook" class="social-media">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/twitter.png" alt="Twitter" class="social-media">
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src="images/instagram.png" alt="Instagram" class="social-media">
+          </a>
 
-      <a href="https://www.facebook.com/">
-        <img src="images/facebook.png" alt="Facebook">
-      </a>
-      <a href="https://twitter.com/">
-        <img src="images/twitter.png" alt="Twitter">
-      </a>
-      <a href="https://www.instagram.com/">
-        <img src="images/instagram.png" alt="Instagram">
-      </a>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+      </div>
 
-      <nav>
+      <nav id="navMenu">
         <a href="../bountiful">Home</a>
         <a id="nav-center" href="fresh.html">Fresh</a>
         <a href="about.html">About Us</a>
@@ -56,5 +62,6 @@
       </div>
     </footer>
     <script src="scripts/lastmodified.js"></script>
+    <script src="scripts/nav.js"></script>
   </body>
 </html>

@@ -1,0 +1,22 @@
+@media screen and (min-width: 600px) {
+    /*---------- Home ----------*/
+    /*-----Header-----*/
+    #hamburgerBtn {
+        display: none;
+    }
+
+    nav#navMenu {
+        display: grid;
+        align-content: center;
+        grid-template-columns: repeat(3, minmax(140px, 1fr));
+    }
+
+    nav a {
+        border-bottom: none;
+    }
+
+    #nav-center {
+        border-right: 1px solid #f69b3e;
+        border-left: 1px solid #f69b3e;
+    }
+}
