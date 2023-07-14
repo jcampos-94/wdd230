@@ -1,4 +1,9 @@
 /*---------- Home ----------*/
+/*-----General-----*/
+a {
+    text-decoration: none;
+}
+
 /*-----Header-----*/
 body {
     font-family: 'Ubuntu', sans-serif;;
@@ -76,16 +81,34 @@ nav.open {
 
 nav a {
     color: #50575d;
-    text-decoration: none;
     padding: 0.8rem;
     font-size: 1.3rem;
     border-bottom: 1px solid #f69b3e;
 }
 
 /*-----Main-----*/
-main {
+#hero-img img {
+    max-width: 100%;
+}
+
+#hero-action {
+    padding: 0 1rem;
+}
+
+#hero-action h1 {
+    font-family:  'Mr Dafoe', cursive;
+    font-weight: normal;
+}
+
+#hero-action p {
     margin-bottom: 2rem;
+}
+
+#hero-action a {
+    background-color: #7d71b1;
+    color: white;
     padding: 1rem;
+    border-radius: .8rem;
 }
 
 /*-----Footer-----*/
@@ -95,6 +118,14 @@ footer {
 
 footer img {
     max-width: 100%;
+}
+
+#footerAddress, #footerInfo {
+    line-height: 5px;
+}
+
+#footerAddress {
+    margin-bottom: 3rem;
 }
 
 /*---------- Design ----------*/
