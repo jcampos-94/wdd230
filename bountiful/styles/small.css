@@ -169,6 +169,15 @@ nav a {
     max-width: 100%;
 }
 
+/*-----Summary-----*/
+#summary {
+    padding: 1rem;
+}
+
+#summary img {
+    max-width: 100%;
+}
+
 /*-----Footer-----*/
 footer {
     padding: 1rem 0 1rem 0;
