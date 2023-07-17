@@ -158,7 +158,7 @@ nav a {
 
 .forecast {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(45px, 1fr) minmax(65px, 1fr);
 }
 
 .forecast img {
@@ -166,7 +166,7 @@ nav a {
     display: flex;
     align-self: center;
     justify-self: center;
-    max-width: 100%;
+    width: 100%;
 }
 
 /*-----Summary-----*/
