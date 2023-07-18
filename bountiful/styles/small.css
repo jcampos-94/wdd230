@@ -15,6 +15,11 @@ h1 {
     font-size: 1.5rem;
 }
 
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+
 /*-----Header-----*/
 header,
 footer {
@@ -106,7 +111,7 @@ main {
     margin: auto;
 }
 
-#hero-action h1 {
+.special {
     font-family: 'Mr Dafoe', cursive;
     font-weight: normal;
     font-size: 2rem;
@@ -134,7 +139,7 @@ main {
     grid-template-columns: 1.2fr 1fr;
     padding: 1rem;
     border: 1px solid #50575d;
-    background: #f69a3e5b;
+    background: #fcdbba;
     margin: 0 1rem;
     color: #242529;
 }

@@ -1,21 +1,21 @@
 @media screen and (min-width: 1000px) {
-    /*---------- Home ----------*/
-    /*-----Header-----*/
-    nav a {
-        font-size: 2rem;
-    }
+  /*---------- Home ----------*/
+  /*-----Header-----*/
+  nav a {
+    font-size: 2rem;
+  }
 
-    nav a:hover {
-        background-color: transparent;
-        color: #f69b3e;
-    }
+  nav a:hover {
+    background-color: transparent;
+    color: #f69b3e;
+  }
 
-    #nav-center {
-        border-right: none;
-        border-left: none;
-    }
+  #nav-center {
+    border-right: none;
+    border-left: none;
+  }
 
-    #navMenu {
+  #navMenu {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -23,5 +23,56 @@
     top: 4.8rem;
     right: 15rem;
     width: auto;
-    }
+  }
+
+  /*-----Main-----*/
+  main {
+    margin-bottom: 0;
+  }
+
+  /*-----Hero-----*/
+  #home-grid {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 1rem;
+  }
+
+  #hero-img img {
+    box-shadow: #50575d 0 15px 20px 0;
+  }
+
+  #hero-action {
+    grid-area: 1 / 2 / 2 /2;
+    background: #fffbdbc8;
+    box-shadow: #50575d 5px 5px 10px 5px;
+  }
+
+  .special {
+    color: #551a8b;
+  }
+
+  /*-----Info Card-----*/
+  #weather, #info-card, #summary {
+    box-shadow: gray 5px 5px 6px 0px;
+  }
+
+  #weather-container {
+    margin-right: 10%;
+  }
+
+  #info-container {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-left: 10%;
+    margin-top: 3.8rem;
+  }
+
+  #info-card {
+    background: white;
+  }
+
+  /*-----Footer-----*/
+  footer {
+    box-shadow: gray 0 -15px 20px 0;
+  }
 }

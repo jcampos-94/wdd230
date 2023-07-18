@@ -48,14 +48,15 @@
 
   /*-----Summary-----*/
   #summary {
-    grid-area: 3/1/4/4;
+    grid-area: 3 /1 /4 / 4;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10%;
+    gap: 3%;
     max-width: 830px;
     background: #ac151a;
     color: white;
     margin: 2rem auto;
+    align-items: center;
   }
 
   #summary img {
@@ -64,7 +65,7 @@
 
   /*-----Info Card-----*/
   #info-container {
-    grid-area: 4/1/5/5;
+    grid-area: 4 / 1 / 5 / 5;
   }
 
   #info-card {
@@ -82,6 +83,10 @@
     gap: 10px;
     padding: .5rem;
     align-items: center;
+  }
+
+  footer img {
+    max-height: 90px;
   }
 
   #footerAddressContainer {

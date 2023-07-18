@@ -23,7 +23,6 @@ async function apiFetch() {
 function displayResults(data) {
   //Display humidity
   const humidity = data.list[0].main.humidity.toFixed(0);
-  console.log(`${humidity}%`);
   humidityHmtl.innerHTML = `Humidity: ${humidity}%`;
 
   data.list.forEach((day, index) => {
@@ -44,9 +43,6 @@ function displayResults(data) {
     weatherIcon.alt = `${weather}`;
 
     divElement.querySelector('.description').innerHTML = `${weather}`;
-
-    console.log(`${temperature}ºF`);
-    console.log(weather);
   });
 }
 
