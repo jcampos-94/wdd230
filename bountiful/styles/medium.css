@@ -66,4 +66,33 @@
   #info-card {
     width: 365px;
   }
+
+  /*-----Footer-----*/
+  footer {
+    padding: 0;
+  }
+
+  footer > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: .5rem;
+    align-items: center;
+  }
+
+  #footerAddressContainer {
+    display: flex;
+    margin-left: 1%;
+  }
+
+  #footerAddress {
+    margin-bottom: 0;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #footerInfo {
+    text-align: right;
+    margin-right: 1%;
+  }
 }
