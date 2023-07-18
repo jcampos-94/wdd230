@@ -1,6 +1,10 @@
 @media screen and (min-width: 1000px) {
     /*---------- Home ----------*/
     /*-----Header-----*/
+    nav a {
+        font-size: 2rem;
+    }
+
     nav a:hover {
         background-color: transparent;
         color: #f69b3e;
