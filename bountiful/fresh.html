@@ -46,7 +46,40 @@
         <a href="about.html">About Us</a>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <h1>Build Your Own Specialty Drink</h1>
+
+      <form id="drinkForm">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="example@example.com" required></label>
+          <label class="top">Cell Phone Number*<input type="tel" name="phone" required></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Order Details</legend>
+          <label for="fruit1">Fruit 1:</label>
+          <select id="fruit1">
+            <!-- Options added using JavaScript -->
+          </select><br><br>
+
+          <label for="fruit2">Fruit 2:</label>
+          <select id="fruit2">
+            <!-- Options added using JavaScript -->
+          </select><br><br>
+
+          <label for="fruit3">Fruit 3:</label>
+          <select id="fruit3">
+            <!-- Options added using JavaScript -->
+          </select><br><br>
+
+          <label class="top">Special Instructions<textarea id="specialInstructions" name="specialInstructions"></textarea></label>
+          <button type="button" onclick="submitForm()">Build Your Drink</button>
+        </fieldset>
+      </form>
+
+    </main>
     <footer>
       <div>
         <div id="footerAddressContainer">
