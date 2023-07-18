@@ -1,4 +1,4 @@
-/*---------- HAMBURGER BUTTON ----------*/
+// HAMBURGER BUTTON
 
 function toggleMenu() {
     document.getElementById("navMenu").classList.toggle("open");

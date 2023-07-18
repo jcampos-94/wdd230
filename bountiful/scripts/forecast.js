@@ -1,11 +1,11 @@
-// select HTML elements in the document
+// Select HTML elements in the document
 const humidityHmtl = document.querySelector("#humidity");
 
-//Weather URL
+// Weather URL
 const code = "cb662272e8fd9de9cc13a7ddd6b91cb1";
 const url = `https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=imperial&cnt=4&appid=${code}`;
 
-//Fetch
+// Fetch
 async function apiFetch() {
   try {
     const response = await fetch(url);
@@ -21,12 +21,12 @@ async function apiFetch() {
 }
 
 function displayResults(data) {
-  //Display humidity
+  // Display humidity
   const humidity = data.list[0].main.humidity.toFixed(0);
   humidityHmtl.innerHTML = `Humidity: ${humidity}%`;
 
   data.list.forEach((day, index) => {
-    //Establish required data
+    // Establish required data
     const temperature = day.main.temp.toFixed(0);
     let weather = day.weather[0].description;
     weather = weather.split(" ").map(word => word[0].toUpperCase() + word.slice(1)).join(" ");
