@@ -93,9 +93,15 @@ function submitForm(event) {
 
   output.innerHTML = outputHTML;
 
+  // Increment the counter and store it in localStorage
+  let drinkCount = localStorage.getItem('drinkCount') || 0;
+  drinkCount++;
+  localStorage.setItem('drinkCount', drinkCount);
+
   event.target.reset();
 }
 
+// Attach the submitForm function to the form's submit event
 const drinkForm = document.getElementById("drinkForm");
 drinkForm.addEventListener("submit", submitForm);
 
