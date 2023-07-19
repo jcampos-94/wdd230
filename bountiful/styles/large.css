@@ -96,4 +96,14 @@
   #output {
     margin-left: 0;
   }
+
+  /*---------- About Us ----------*/
+  /*-----------Main--------------*/
+  #aboutUs-info {
+    max-width: 1000px;
+  }
+
+  #aboutUs-info h1 {
+    margin-top: 4rem;
+  }
 }
