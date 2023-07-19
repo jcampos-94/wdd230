@@ -114,9 +114,4 @@
   #aboutUs-info h1 {
     margin-top: 2rem;
   }
-
-  /*-----------Map--------------*/
-  #map-container iframe {
-    height: 400px;
-  }
 }
