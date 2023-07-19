@@ -73,7 +73,7 @@ function submitForm(event) {
   const orderDate = currentDate.toLocaleString('en-US');
 
   const outputHTML = `
-    <h2>Order Summary:</h2>
+    <h2>Order Summary</h2>
     <p><strong>First Name:</strong> ${firstName}</p>
     <p><strong>Email:</strong> ${email}</p>
     <p><strong>Phone Number:</strong> ${phone}</p>
@@ -82,7 +82,8 @@ function submitForm(event) {
     <p><strong>Fruit 3:</strong> ${selectedFruit3}</p>
     <p><strong>Special Instructions:</strong> ${specialInstructions}</p>
     <p><strong>Order Date:</strong> ${orderDate}</p>
-    <h2>Total Nutrition:</h2>
+    <br>
+    <h2>Total Nutrition</h2>
     <p><strong>Total Calories:</strong> ${totalNutrition.totalCalories.toFixed(2)}kcal</p>
     <p><strong>Total Carbohydrates:</strong> ${totalNutrition.totalCarbohydrates.toFixed(2)}g</p>
     <p><strong>Total Fat:</strong> ${totalNutrition.totalFat.toFixed(2)}g</p>

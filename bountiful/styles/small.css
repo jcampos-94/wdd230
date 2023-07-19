@@ -1,23 +1,23 @@
 /*---------- Home ----------*/
 /*-----General-----*/
 body {
-    font-family: 'Ubuntu', sans-serif;;
-    text-align: center;
-    color: #50575d;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  color: #50575d;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
 }
 
 /*-----Header-----*/
@@ -28,198 +28,274 @@ footer {
 }
 
 #header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
 #social-flex {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 header img {
-    width: 30vw;
-    max-width: 170px;
+  width: 30vw;
+  max-width: 170px;
 }
 
 .social-media {
-    width: 10vw;
-    max-width: 45px;
-    margin-left: 10px;
+  width: 10vw;
+  max-width: 45px;
+  margin-left: 10px;
 }
 
 #hamburgerBtn {
-    display: block;
-    color: #50575d;
-    border: none;
-    background: none;
-    padding: 0;
-    width: fit-content;
-    font-size: 2rem;
-    margin-left: 10px;
-    min-width: 2rem;
+  display: block;
+  color: #50575d;
+  border: none;
+  background: none;
+  padding: 0;
+  width: fit-content;
+  font-size: 2rem;
+  margin-left: 10px;
+  min-width: 2rem;
 }
 
 #hamburgerBtn span:nth-child(1) {
-    display: block;
+  display: block;
 }
 
 #hamburgerBtn span:nth-child(2) {
-display: none;
+  display: none;
 }
 
 #hamburgerBtn.open span:nth-child(1) {
-display: none;
+  display: none;
 }
 
 #hamburgerBtn.open span:nth-child(2) {
-display: block;
+  display: block;
 }
 
 nav {
-    display: none;
+  display: none;
 }
 
 nav.open {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
 }
 
 nav a {
-    color: #50575d;
-    padding: 0.8rem;
-    font-size: 1.3rem;
-    border-bottom: 1px solid #f69b3e;
+  color: #50575d;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #f69b3e;
 }
 
 /*-----Main-----*/
-main {
-    margin-bottom: 2rem;
+#home-main {
+  margin-bottom: 2rem;
 }
 /*-----Hero-----*/
 #hero-img img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 #hero-action {
-    padding: 1rem 1rem 2rem;
-    max-width: 400px;
-    margin: auto;
+  padding: 1rem 1rem 2rem;
+  max-width: 400px;
+  margin: auto;
 }
 
 .special {
-    font-family: 'Mr Dafoe', cursive;
-    font-weight: normal;
-    font-size: 2rem;
+  font-family: "Mr Dafoe", cursive;
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 #hero-action p {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #hero-action a {
-    background-color: #551a8b;
-    color: white;
-    padding: 1rem;
-    border-radius: .8rem;
+  background-color: #551a8b;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.8rem;
 }
 
 /*-----Weather-----*/
-#weather-container, #info-container {
-    max-width: 432px;
-    margin: auto;
+#weather-container,
+#info-container {
+  max-width: 432px;
+  margin: auto;
 }
 
 #weather {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    padding: 1rem;
-    border: 1px solid #50575d;
-    background: #fcdbba;
-    margin: 0 1rem;
-    color: #242529;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  padding: 1rem;
+  border: 1px solid #50575d;
+  background: #fcdbba;
+  margin: 0 1rem;
+  color: #242529;
 }
 
 #today {
-    grid-row: 1/4;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    border-right: 1px solid #50575d;
+  grid-row: 1/4;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-right: 1px solid #50575d;
 }
 
 #today .temperature {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .temperature {
-    margin-bottom: 0;
-    margin-top: auto;
+  margin-bottom: 0;
+  margin-top: auto;
 }
 
 .description {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .forecast {
-    display: grid;
-    grid-template-columns: minmax(40px, 1fr) minmax(65px, 1fr);
+  display: grid;
+  grid-template-columns: minmax(40px, 1fr) minmax(65px, 1fr);
 }
 
 .forecast img {
-    grid-row: 1/3;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    width: 100%;
+  grid-row: 1/3;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  width: 100%;
 }
 
 /*-----Summary-----*/
 #summary {
-    padding: 1rem;
-    max-width: 400px;
-    margin: 1rem auto;
+  padding: 1rem;
+  max-width: 400px;
+  margin: 1rem auto;
 }
 
 #summary img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /*-----Info Card-----*/
 #info-card {
-    border: 1px solid #f69b3e;
-    margin: 0 1rem;
-    padding: 1rem;
+  border: 1px solid #f69b3e;
+  margin: 0 1rem;
+  padding: 1rem;
 }
 
 #specialty-quantity {
-    font-size: 3rem;
-    margin: .2rem 0;
-    color: #e31e25;
+  font-size: 3rem;
+  margin: 0.2rem 0;
+  color: #e31e25;
 }
 
 #specialty-quantity + p {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 /*-----Footer-----*/
 footer {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 footer img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-#footerAddress, #footerInfo {
-    line-height: 5px;
+#footerAddress,
+#footerInfo {
+  line-height: 5px;
 }
 
 #footerAddress {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+/*---------- Fresh ----------*/
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*-----Main-----*/
+#fresh-main {
+    margin-top: 2rem;
+}
+
+/*-----Form-----*/
+form {
+  text-align: left;
+  margin: .5rem;
+}
+
+form fieldset {
+  max-width: 23.1rem;
+  margin: 2rem auto;
+  border: 1px solid #50575d;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+form label.top input,
+form label.top textarea,
+form label.top select {
+  display: block;
+  border: 0.5px solid #50575d;
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 22rem;
+}
+
+form #submitBtn {
+  display: block;
+  border: none;
+  background-color: #f69b3e;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 13px;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem auto 2rem auto;
+  width: 100%;
+  max-width: 23.1rem;
+}
+
+/*-----Output-----*/
+#output {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 23.1rem;
+}
+
+#output p {
+    text-align: left;
 }
