@@ -5,7 +5,6 @@ let fruitData;
 async function getFruitsData() {
   const response = await fetch(url);
   fruitData = await response.json();
-  console.log(fruitData); //Remember to delete!*****
   populateFruitOptions();
 }
 
