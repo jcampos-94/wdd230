@@ -49,47 +49,49 @@
     <main id="fresh-main">
       <h1>Build Your Own Specialty Drink</h1>
 
-      <form id="drinkForm">
-        <fieldset>
-          <legend>Contact Information</legend>
-          <label class="top">First Name*<input type="text" name="fname" required></label>
-          <label class="top">Email*<input type="email" name="email" placeholder="example@example.com" required></label>
-          <label class="top">Cell Phone Number*<input type="tel" name="phone" required></label>
-        </fieldset>
-
-        <fieldset>
-          <legend>Order Details</legend>
-          <label class="top">
-            Fruit 1*:
-            <select id="fruit1" required>
-              <option disabled selected value="">Select a fruit</option>
-              <!-- Options added using JavaScript -->
-            </select>
-          </label>
-
-          <label class="top">
-            Fruit 2*:
-            <select id="fruit2" required>
-              <option disabled selected value="">Select a fruit</option>
-              <!-- Options added using JavaScript -->
-            </select>
-          </label>
-
-          <label class="top">
-            Fruit 3*:
-            <select id="fruit3" required>
-              <option disabled selected value="">Select a fruit</option>
-              <!-- Options added using JavaScript -->
-            </select>
-          </label>
-
-          <label class="top">Special Instructions<textarea id="specialInstructions" name="specialInstructions"></textarea></label>
-          <button type="submit" id="submitBtn">Build Your Drink</button>
-        </fieldset>
-      </form>
-
-      <div id="output">
-        <!-- Filled using JavaScript -->
+      <div id="fresh-grid">
+        <form id="drinkForm">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">First Name*<input type="text" name="fname" required></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="example@example.com" required></label>
+            <label class="top">Cell Phone Number*<input type="tel" name="phone" required></label>
+          </fieldset>
+  
+          <fieldset>
+            <legend>Order Details</legend>
+            <label class="top">
+              Fruit 1*:
+              <select id="fruit1" required>
+                <option disabled selected value="">Select a fruit</option>
+                <!-- Options added using JavaScript -->
+              </select>
+            </label>
+  
+            <label class="top">
+              Fruit 2*:
+              <select id="fruit2" required>
+                <option disabled selected value="">Select a fruit</option>
+                <!-- Options added using JavaScript -->
+              </select>
+            </label>
+  
+            <label class="top">
+              Fruit 3*:
+              <select id="fruit3" required>
+                <option disabled selected value="">Select a fruit</option>
+                <!-- Options added using JavaScript -->
+              </select>
+            </label>
+  
+            <label class="top">Special Instructions<textarea id="specialInstructions" name="specialInstructions"></textarea></label>
+            <button type="submit" id="submitBtn">Build Your Drink</button>
+          </fieldset>
+        </form>
+  
+        <div id="output">
+          <!-- Filled using JavaScript -->
+        </div>
       </div>
 
     </main>

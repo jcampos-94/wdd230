@@ -75,4 +75,25 @@
   #home-footer {
     box-shadow: gray 0 -15px 20px 0;
   }
+
+  /*---------- Fresh ----------*/
+  /*-----Main-----*/
+  #fresh-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*-----Form-----*/
+  form {
+    margin-right: 0;
+  }
+
+  form fieldset {
+    margin-right: 1rem;
+  }
+
+  /*-----Output-----*/
+  #output {
+    margin-left: 0;
+  }
 }
